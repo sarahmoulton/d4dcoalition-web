@@ -18,36 +18,17 @@ Give examples
 ```
 
 ### Installing
-
-A step by step series of examples that tell you have to get a local development env running
-
-Say what the step will be
-npm install
-gulp default
-- runs watch
-- runs jekyll serve
-
-gulp build
-- compression
-- jekyll build
-- gulp-gh-pages
-
-jekyll serve
-jekyll build
-
-
-
 ```
-Give the example
+$ cd design4democracy
+```
+```
+$ npm install
+```
+```
+$ gulp
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+visit http://localhost:4000/
 
 ## Running the tests
 
