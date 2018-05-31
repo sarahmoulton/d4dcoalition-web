@@ -1,0 +1,12 @@
+.bio {
+  overflow: hidden;
+  clear: both;
+  margin: 0 0 2em;
+}
+.headshot {
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+  float: left;
+  margin-right: 1em;
+}
