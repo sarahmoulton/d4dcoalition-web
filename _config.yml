@@ -23,9 +23,11 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Collections
+collections_dir: collections
 collections:
-  bios:
-    #output: true
+  - bios
+  - news
+  - events
 
 # Build settings
 markdown: kramdown
@@ -41,8 +43,8 @@ exclude:
   - package-lock.json
   - node_modules
   - gulpfile.js
-   - Gemfile
-   - Gemfile.lock
+  - Gemfile
+  - Gemfile.lock
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/

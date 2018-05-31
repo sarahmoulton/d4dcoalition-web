@@ -7,4 +7,4 @@ title: Bios
 permalink: /bios/
 ---
 
-This is the introductory content for the bios page. I figure it makes the most sense to maintain this here. Hopefully reload works now? I think it might!
+This is the introductory content for the bios page. I figure it makes the most sense to maintain this here, in the event it is necessary.

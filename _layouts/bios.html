@@ -11,15 +11,14 @@ layout: default
 
   {%- if site.bios.size > 0 -%}
     <h2 class="bio-list-heading">{{ page.list_title | default: "Bios" }}</h2>
-    <ul class="bio-list">
       {%- for bio in site.bios -%}
-      <li>
+      <div class="bio">
+        <img src="/assets/img/{{ bio.image }}" alt="{{ bio.title | escape }}" class="headshot" />
         <h3>{{ bio.title | escape }}</h3>
           {{ bio.content }}
-      </li>
+      </div><!-- .bio -->
       {%- endfor -%}
-    </ul>
 
   {%- endif -%}
 
-</div>
+</div><!-- .bios -->

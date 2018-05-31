@@ -1,7 +1,6 @@
 # Design4Democracy
-# Project Title
 
-One Paragraph of project description goes here
+The Design for Democracy coalition is a small
 
 ## Getting Started
 
@@ -9,50 +8,24 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-* [Install Jekyll](https://jekyllrb.com/docs/installation/) the gem
+* [Jekyll](https://jekyllrb.com/docs/installation/)
 * Gulp
 * NPM
-```
-Give examples
-```
 
 ### Installing
+
 ```
 $ cd design4democracy
-```
-```
+$ bundle install
 $ npm install
-```
-```
 $ gulp
 ```
 
-visit http://localhost:4000/
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Visit http://localhost:4000/ (BrowserSync should automatically spawn this for you!)
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+`gulp deploy` will push the build artifacts out to the `gh-pages` branch of this repo.
 
 ## Built With
 

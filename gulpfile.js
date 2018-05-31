@@ -5,6 +5,7 @@
 
 const child         = require('child_process');
 const browserSync   = require('browser-sync').create();
+const del           = require('del');
 
 const gulp          = require('gulp');
 const deploy        = require('gulp-gh-pages');
@@ -15,6 +16,7 @@ const autoprefixer  = require('gulp-autoprefixer');
 const cleanCSS      = require('gulp-clean-css');
 const notify        = require("gulp-notify");
 const plumber       = require("gulp-plumber");
+const imagemin      = require('gulp-imagemin');
 
 const siteRoot  = '_site';
 const cssFiles  = '_sass/**/*.?(s)css';
@@ -31,9 +33,17 @@ gulp.task('css', () => {
         cascade: false
     }))
     .pipe(cleanCSS({}))
-    .pipe(concat('main.css'))
+    .pipe(concat('custom.css'))
     .pipe(gulp.dest('assets/css/'))
-    .pipe(notify("CSS task completed."));
+    .pipe(notify({message:"CSS optimization completed.",onLast:true}));
+});
+
+gulp.task('img', () => {
+  return gulp.src('assets/img/*')
+    .pipe(plumber({errorHandler: notify.onError("Img Error: <%= error.message %>")}))
+    .pipe(imagemin())
+    .pipe(gulp.dest(siteRoot + '/assets/img/opt'))
+    .pipe(notify({message:"Image optimization completed.",onLast:true}));
 });
 
 /**
@@ -41,9 +51,9 @@ gulp.task('css', () => {
  */
 gulp.task('jekyll', () => {
   const jekyll = child.spawn('jekyll', ['build',
+    '--drafts',
     '--watch',
-    '--incremental',
-    '--drafts'
+    '--incremental'
   ]);
   const jekyllLogger = (buffer) => {
     buffer.toString()
@@ -53,23 +63,34 @@ gulp.task('jekyll', () => {
   // log to the console, as Jekyll would normally.
   jekyll.stdout.on('data', jekyllLogger);
   jekyll.stderr.on('data', jekyllLogger);
+
 });
 
 /**
  * Use LiveReload to serve site instead of Jekyll.
  */
 gulp.task('serve', () => {
-  browserSync.init({
-    files: [siteRoot + '/**'],
-    port: 4000,
-    server: {
-      baseDir: siteRoot
-    }
-  });
+  // Add a delay to the server setup so Jekyll has time to build.
+  setTimeout(() => {
+    browserSync.init({
+      files: [siteRoot + '/**'],
+      port: 4000,
+      server: {
+        baseDir: siteRoot
+      }
+    });
 
-  // rebuild files as changes occur
-  gulp.watch(cssFiles, gulp.parallel('css'));
-  gulp.watch(siteRoot + '/**/*.*').on('change', browserSync.reload);
+    // rebuild files as changes occur
+    gulp.watch(cssFiles, gulp.parallel('css'));
+    gulp.watch(siteRoot + '/**/*.*').on('change', browserSync.reload);
+
+  }, 1000);
+
+
+});
+
+gulp.task('clean:site', function () {
+  return del([siteRoot]);
 });
 
 /**
@@ -81,4 +102,4 @@ gulp.task('deploy', () => {
          .pipe(notify("Site deployed to GitHub Pages."));
 });
 
-gulp.task('default', gulp.parallel('css', 'jekyll', 'serve'));
+gulp.task('default', gulp.series('clean:site', gulp.parallel('css','img'), gulp.parallel('jekyll', 'serve')));
