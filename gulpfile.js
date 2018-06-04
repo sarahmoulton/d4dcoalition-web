@@ -63,7 +63,6 @@ gulp.task('jekyll', () => {
   // log to the console, as Jekyll would normally.
   jekyll.stdout.on('data', jekyllLogger);
   jekyll.stderr.on('data', jekyllLogger);
-
 });
 
 /**
@@ -85,18 +84,29 @@ gulp.task('serve', () => {
     gulp.watch(siteRoot + '/**/*.*').on('change', browserSync.reload);
 
   }, 1000);
-
-
 });
 
-gulp.task('clean:site', function () {
+/**
+ * Cleanup build
+ * We are occasionally seeing wonky build behavior; so let's be tidy.
+ */
+gulp.task('clean:site', () => {
   return del([siteRoot]);
+});
+
+/**
+ * Production build
+ * Build using the production environment var to ensure correct configuration.
+ */
+gulp.task('build:production', () => {
+  return exec('JEKYLL_ENV=production jekyll build');
 });
 
 /**
  * Push build to gh-pages branch in GitHub.
  */
 gulp.task('deploy', () => {
+  exec('gulp build:production');
   return gulp.src("./_site/**/*")
          .pipe(deploy())
          .pipe(notify("Site deployed to GitHub Pages."));
