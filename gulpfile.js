@@ -85,7 +85,7 @@ gulp.task('serve', () => {
     gulp.watch(cssFiles, gulp.parallel('css'));
     gulp.watch(siteRoot + '/**/*.*').on('change', browserSync.reload);
 
-  }, 1000);
+  }, 2000);
 });
 
 /**
