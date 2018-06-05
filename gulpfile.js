@@ -6,9 +6,11 @@
 const child         = require('child_process');
 const browserSync   = require('browser-sync').create();
 const del           = require('del');
+const exec          = child.exec;
+const path          = require('path');
 
 const gulp          = require('gulp');
-const deploy        = require('gulp-gh-pages');
+const ghpages       = require('gh-pages');
 const concat        = require('gulp-concat');
 const sass          = require('gulp-sass');
 const gutil         = require('gulp-util');
@@ -99,17 +101,16 @@ gulp.task('clean:site', () => {
  * Build using the production environment var to ensure correct configuration.
  */
 gulp.task('build:production', () => {
-  return exec('JEKYLL_ENV=production jekyll build');
+  return exec('JEKYLL_ENV=production jekyll build --config=_config.yml,_config.production.yml');
 });
 
 /**
  * Push build to gh-pages branch in GitHub.
  */
-gulp.task('deploy', () => {
-  exec('gulp build:production');
-  return gulp.src("./_site/**/*")
-         .pipe(deploy())
-         .pipe(notify("Site deployed to GitHub Pages."));
-});
+ gulp.task('publish', function(cb) {
+   ghpages.publish(path.join(process.cwd(), '_site'), cb);
+ });
+
+ gulp.task('deploy', gulp.series('build:production','publish'));
 
 gulp.task('default', gulp.series('clean:site', gulp.parallel('css','img'), gulp.parallel('jekyll', 'serve')));
