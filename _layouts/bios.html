@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<div class="bios">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -10,15 +9,34 @@ layout: default
   {{ content }}
 
   {%- if site.bios.size > 0 -%}
-    <h2 class="bio-list-heading">{{ page.list_title | default: "Bios" }}</h2>
+    <ul id="og-grid" class="og-grid">
       {%- for bio in site.bios -%}
-      <div class="bio">
-        <img src="{{ '/assets/img/' | relative_url }}{{ bio.image }}" alt="{{ bio.title | escape }}" class="headshot" />
-        <h3>{{ bio.title | escape }}</h3>
-          {{ bio.content }}
-      </div><!-- .bio -->
+      <li>
+        <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="{{ '/assets/img/' | relative_url }}{{ bio.image }}" data-title="{{ bio.title | escape }}" data-description="{{ bio.content }}">
+          <img src="{{ '/assets/img/' | relative_url }}{{ bio.image }}" alt="{{ bio.title | escape }}" class="headshot" />
+        </a>
+        <div class="og-expander">
+      		<div class="og-expander-inner">
+      			<span class="og-close"></span>
+      			<div class="og-fullimg">
+      				<div class="og-loading"></div>
+      				<img src="{{ '/assets/img/' | relative_url }}{{ bio.image }}">
+      			</div>
+      			<div class="og-details">
+      				<h3>{{ bio.title | escape }}</h3>
+      				{{ bio.content }}
+      				<a href="http://cargocollective.com/jaimemartinez/">Visit website</a>
+      			</div>
+      		</div>
+      	</div>
+      </li>
       {%- endfor -%}
-
+    </ul>
   {%- endif -%}
 
-</div><!-- .bios -->
+<script src="{{ '/assets/js/bios.js' | relative_url }}"></script>
+<script>
+	$(function() {
+		Grid.init();
+	});
+</script>
