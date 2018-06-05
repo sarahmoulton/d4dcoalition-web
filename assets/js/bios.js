@@ -382,7 +382,6 @@ var Grid = (function($) {
 					title : $itemEl.data( 'title' ),
 					description : $itemEl.data( 'description' )
 				};
-				console.log(eldata);
 			this.$title.html( eldata.title );
 			this.$description.html( eldata.description );
 			this.$href.attr( 'href', eldata.href );
