@@ -1,6 +1,5 @@
 # Design4Democracy
 
-The Design for Democracy coalition is a small
 
 ## Getting Started
 
