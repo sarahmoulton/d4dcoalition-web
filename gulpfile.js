@@ -41,10 +41,10 @@ gulp.task('css', () => {
 });
 
 gulp.task('img', () => {
-  return gulp.src('assets/img/*')
+  return gulp.src('assets/img/**')
     .pipe(plumber({errorHandler: notify.onError("Img Error: <%= error.message %>")}))
     .pipe(imagemin())
-    .pipe(gulp.dest(siteRoot + '/assets/img/opt'))
+    .pipe(gulp.dest('assets/img/'))
     .pipe(notify({message:"Image optimization completed.",onLast:true}));
 });
 
@@ -106,9 +106,14 @@ gulp.task('build:production', () => {
 
 /**
  * Push build to gh-pages branch in GitHub.
+ * Notification in callback isn't working correctly but
+ * I'm going to let it go for now.
  */
- gulp.task('publish', function(cb) {
-   ghpages.publish(path.join(process.cwd(), '_site'), cb);
+ gulp.task('publish', (cb) => {
+   return ghpages.publish(path.join(process.cwd(), '_site'), ()=> {
+     notify("Site deployed.");
+     return true;
+   });
  });
 
  gulp.task('deploy', gulp.series('build:production','publish'));

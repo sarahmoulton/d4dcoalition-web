@@ -13,7 +13,7 @@ layout: default
     <h2 class="bio-list-heading">{{ page.list_title | default: "Bios" }}</h2>
       {%- for bio in site.bios -%}
       <div class="bio">
-        <img src="{{ assets/img/{{ bio.image }} | relative_url }}" alt="{{ bio.title | escape }}" class="headshot" />
+        <img src="{{ '/assets/img/' | relative_url }}{{ bio.image }}" alt="{{ bio.title | escape }}" class="headshot" />
         <h3>{{ bio.title | escape }}</h3>
           {{ bio.content }}
       </div><!-- .bio -->
