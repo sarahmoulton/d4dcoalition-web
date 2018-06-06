@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: The Design for Democracy Coalition will be a multi-partisan, global grouping of key actors in the democracy community to better liaise and coordinate with tech companies and social media platforms on matters of shared concern.
 permalink: /about/
 ---
 ## Background and Overview

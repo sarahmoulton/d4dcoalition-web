@@ -11,7 +11,7 @@
 		@include vendor('flex-direction', 'column');
 		@include vendor('align-items', 'center');
 		@include vendor('justify-content', 'center');
-		background-image: url('../../images/banner.jpg');
+		background-image: url('../../images/science-march.jpg');
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center;
@@ -22,7 +22,7 @@
 		position: relative;
 
 		> .content {
-			@include color-typography(accent1);
+			@include color-typography(accent4);
 			@include vendor('transition', (
 				'transform 0.5s ease-in-out',
 				'opacity 0.5s ease-in-out'
@@ -48,11 +48,23 @@
 			}
 
 			h1 {
-				font-size: 2.25rem;
+				//font-size: 2.25rem;
+				font-size: 4rem;
+				font-weight: bold;
+				letter-spacing: 5px;
 			}
 
 			p {
 				font-size: 1.25rem;
+			}
+			.button {
+				background:transparent;
+				border-radius: 3px;
+  			border: solid 2px #ffffff;
+			  font-style: normal;
+			  font-stretch: normal;
+			  letter-spacing: 2px;
+			  text-align: center;
 			}
 		}
 

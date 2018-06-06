@@ -18,11 +18,12 @@
 		cursor: pointer;
 		display: inline-block;
 		font-family: _font(family-heading);
-		font-weight: _font(weight-heading);
-		font-size: 0.75rem;
-		height: _size(element-height);
+		//font-weight: _font(weight-heading);
+		font-weight: 900;
+		font-size: 1.25rem;
+		height: _size(element-height) + 2rem;
 		line-height: _size(element-height) + 0.075rem;
-		padding: 0 2.5rem;
+		padding: 1rem 2.5rem;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
@@ -117,3 +118,7 @@
 	}
 
 	@include color-button;
+
+	.special {
+		@include color-button(accent3);
+	}
