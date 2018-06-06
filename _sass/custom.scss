@@ -81,11 +81,10 @@
   	-moz-transform: rotate(-45deg);
   	transform: rotate(-45deg);
   }
-}
 
-.og-close:hover::before,
-.og-close:hover::after {
-	background: #333;
+  &:hover::before, &:hover::after {
+  	background: #333;
+  }
 }
 
 .og-fullimg,
@@ -195,4 +194,9 @@
 	.og-fullimg { display: none; }
 	.og-details { float: none; width: 100%; }
 
+}
+
+/* used for bio page */
+.wrapper.full {
+  max-width: calc(1400px - (30px * 2))
 }

@@ -201,18 +201,15 @@
 
 	@mixin color-post($p: null) {
 		$highlight: _palette($p, highlight);
+		$category: _palette($p, category);
 
  		.post {
 			> .content {
 				header {
 					.category {
-						color: _palette("accent2", bg);
+						color: _palette($category, bg);
 					}
 				}
-			}
-
-			&.style2 {
-				background-color: _palette($p, bg);
 			}
 
 			@include breakpoint(xsmall) {
