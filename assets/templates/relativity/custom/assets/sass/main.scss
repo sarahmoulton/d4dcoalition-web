@@ -3,7 +3,7 @@
 @import 'libs/mixins';
 @import 'libs/skel';
 @import 'font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,900');
 
 /*
 	Relativity by Pixelarity
@@ -66,3 +66,9 @@
 	@import 'layout/banner';
 	@import 'layout/footer';
 	@import 'layout/navPanel';
+
+	#wrapper > .main.special {
+		input, select, textarea {
+			color: _palette(fg-bold);
+		}
+	}

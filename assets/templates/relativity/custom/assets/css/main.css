@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,900");
 /*
 	Relativity by Pixelarity
 	pixelarity.com | hello@pixelarity.com
@@ -1487,11 +1487,11 @@ button,
   cursor: pointer;
   display: inline-block;
   font-family: "Open Sans", Helvetica, sans-serif;
-  font-weight: 800;
-  font-size: 0.75rem;
-  height: 3rem;
+  font-weight: 900;
+  font-size: 1.25rem;
+  height: 5rem;
   line-height: 3.075rem;
-  padding: 0 2.5rem;
+  padding: 1rem 2.5rem;
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
@@ -1611,6 +1611,47 @@ button,
     button.alt.icon:before,
     .button.alt.icon:before {
       color: #bfbfbf; }
+
+.special input[type="submit"],
+.special input[type="reset"],
+.special input[type="button"],
+.special button,
+.special .button {
+  background-color: #c28a21;
+  color: #ffffff !important; }
+  .special input[type="submit"]:hover,
+  .special input[type="reset"]:hover,
+  .special input[type="button"]:hover,
+  .special button:hover,
+  .special .button:hover {
+    background-color: #d89a25;
+    color: #ffffff !important; }
+  .special input[type="submit"]:active,
+  .special input[type="reset"]:active,
+  .special input[type="button"]:active,
+  .special button:active,
+  .special .button:active {
+    background-color: #ac7a1d; }
+  .special input[type="submit"].alt,
+  .special input[type="reset"].alt,
+  .special input[type="button"].alt,
+  .special button.alt,
+  .special .button.alt {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
+    color: #ffffff !important; }
+    .special input[type="submit"].alt:hover,
+    .special input[type="reset"].alt:hover,
+    .special input[type="button"].alt:hover,
+    .special button.alt:hover,
+    .special .button.alt:hover {
+      background-color: rgba(255, 255, 255, 0.075); }
+    .special input[type="submit"].alt.icon:before,
+    .special input[type="reset"].alt.icon:before,
+    .special input[type="button"].alt.icon:before,
+    .special button.alt.icon:before,
+    .special .button.alt.icon:before {
+      color: #ffffff; }
 
 /* Form */
 form {
@@ -2616,7 +2657,7 @@ table.alt tbody tr td {
       #wrapper > .main.accent2 .post {
         border-top-color: rgba(255, 255, 255, 0.125); } }
   #wrapper > .main.alt {
-    background-image: url("../../images/bg.jpg");
+    background-image: url("../../images/womens-march-dc-filtered.png");
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed; }
@@ -2923,7 +2964,7 @@ body {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../../images/science-march.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -2933,7 +2974,7 @@ body {
   overflow: hidden;
   position: relative; }
   #banner > .content {
-    background-color: #418cbf;
+    background-color: rgba(26, 28, 43, 0.75);
     color: #ffffff;
     -moz-transition: -moz-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     -webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
@@ -2951,18 +2992,18 @@ body {
     #banner > .content a {
       color: inherit; }
       #banner > .content a:hover {
-        color: #418cbf !important; }
+        color: #c28a21 !important; }
     #banner > .content strong, #banner > .content b {
       color: #ffffff; }
     #banner > .content h1, #banner > .content h2, #banner > .content h3, #banner > .content h4, #banner > .content h5, #banner > .content h6 {
       color: #ffffff; }
     #banner > .content blockquote {
-      border-left-color: rgba(255, 255, 255, 0.25); }
+      border-left-color: rgba(255, 255, 255, 0.125); }
     #banner > .content code {
       background: rgba(255, 255, 255, 0.075);
-      border-color: rgba(255, 255, 255, 0.25); }
+      border-color: rgba(255, 255, 255, 0.125); }
     #banner > .content hr {
-      border-bottom-color: rgba(255, 255, 255, 0.25); }
+      border-bottom-color: rgba(255, 255, 255, 0.125); }
     #banner > .content > * {
       margin: 0.25rem 0 0 0; }
     #banner > .content > :first-child {
@@ -2970,9 +3011,19 @@ body {
     #banner > .content > :last-child {
       margin-bottom: 0; }
     #banner > .content h1 {
-      font-size: 2.25rem; }
+      font-size: 4rem;
+      font-weight: bold;
+      letter-spacing: 5px; }
     #banner > .content p {
       font-size: 1.25rem; }
+    #banner > .content .button {
+      background: transparent;
+      border-radius: 3px;
+      border: solid 2px #ffffff;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 2px;
+      text-align: center; }
   #banner > .more {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg zoomAndPan='disable' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='40px' height='20px' viewBox='0 0 40px 20px'%3E%3Cstyle type='text/css'%3Eline %7B stroke: %23ffffff%3B stroke-width: 0.75px%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='20' y2='20' /%3E%3Cline x1='20' y1='20' x2='40' y2='0' /%3E%3C/svg%3E");
     background-position: center;
@@ -3181,5 +3232,8 @@ body.is-navPanel-visible #navPanel {
   -ms-transform: translateX(0);
   transform: translateX(0);
   visibility: visible; }
+
+#wrapper > .main.special input, #wrapper > .main.special select, #wrapper > .main.special textarea {
+  color: #30313a; }
 
 /*# sourceMappingURL=main.css.map */
