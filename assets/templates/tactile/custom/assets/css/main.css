@@ -2174,8 +2174,8 @@ body {
 */
 /* Menu */
 #menu {
-  background-color: #c28a21;
-  color: #e5e6e9;
+  background-color: #007faa;
+  color: #f8fcfd;
   -moz-transform: translateX(20em);
   -webkit-transform: translateX(20em);
   -ms-transform: translateX(20em);
@@ -2200,40 +2200,40 @@ body {
   #menu input, #menu select, #menu textarea {
     color: #ffffff; }
   #menu a {
-    color: #007faa; }
+    color: #c28a21; }
   #menu strong, #menu b {
     color: #ffffff; }
   #menu h1, #menu h2, #menu h3, #menu h4, #menu h5, #menu h6 {
     color: #ffffff; }
     #menu h1.major:after, #menu h2.major:after, #menu h3.major:after, #menu h4.major:after, #menu h5.major:after, #menu h6.major:after {
-      background-color: rgba(0, 0, 0, 0.3); }
+      background-color: #c28a21; }
   #menu blockquote {
-    border-left-color: rgba(0, 0, 0, 0.3); }
+    border-left-color: rgba(255, 255, 255, 0.3); }
   #menu code {
-    background: rgba(0, 0, 0, 0.1);
-    border-color: rgba(0, 0, 0, 0.3); }
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3); }
   #menu hr {
-    border-bottom-color: rgba(0, 0, 0, 0.3); }
+    border-bottom-color: rgba(255, 255, 255, 0.3); }
   #menu input[type="submit"],
   #menu input[type="reset"],
   #menu input[type="button"],
   #menu button,
   #menu .button {
     background-color: transparent;
-    border-color: rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 255, 255, 0.3);
     color: #ffffff !important; }
     #menu input[type="submit"]:hover,
     #menu input[type="reset"]:hover,
     #menu input[type="button"]:hover,
     #menu button:hover,
     #menu .button:hover {
-      background-color: rgba(0, 0, 0, 0.1); }
+      background-color: rgba(255, 255, 255, 0.1); }
     #menu input[type="submit"]:active,
     #menu input[type="reset"]:active,
     #menu input[type="button"]:active,
     #menu button:active,
     #menu .button:active {
-      background-color: rgba(0, 0, 0, 0.2); }
+      background-color: rgba(255, 255, 255, 0.2); }
     #menu input[type="submit"].icon:before,
     #menu input[type="reset"].icon:before,
     #menu input[type="button"].icon:before,
@@ -2246,20 +2246,20 @@ body {
     #menu button.special,
     #menu .button.special {
       border: none;
-      background-color: #007faa;
+      background-color: #c28a21;
       color: #ffffff !important; }
       #menu input[type="submit"].special:hover,
       #menu input[type="reset"].special:hover,
       #menu input[type="button"].special:hover,
       #menu button.special:hover,
       #menu .button.special:hover {
-        background-color: #0092c4; }
+        background-color: #d89a25; }
       #menu input[type="submit"].special:active,
       #menu input[type="reset"].special:active,
       #menu input[type="button"].special:active,
       #menu button.special:active,
       #menu .button.special:active {
-        background-color: #006c91; }
+        background-color: #ac7a1d; }
       #menu input[type="submit"].special.icon:before,
       #menu input[type="reset"].special.icon:before,
       #menu input[type="button"].special.icon:before,
@@ -2338,7 +2338,7 @@ body {
 */
 /* Banner */
 #banner {
-  background-color: #444;
+  background-color: #30313a;
   color: #ffffff;
   display: -moz-flex;
   display: -webkit-flex;
@@ -2492,7 +2492,7 @@ body {
     transition: opacity 1s ease;
     content: '';
     display: block;
-    background: #444;
+    background: #30313a;
     position: absolute;
     top: 0;
     left: 0;
@@ -2530,7 +2530,7 @@ body {
 */
 /* Main */
 #main > header {
-  background-color: #444;
+  background-color: #30313a;
   color: #ffffff;
   padding: 10em 0 8em 0 ;
   background-image: linear-gradient(rgba(26, 28, 33, 0.75), rgba(26, 28, 33, 0.75)), url("../../images/ballotbox.jpg");
@@ -2878,6 +2878,146 @@ body {
       border-bottom-color: rgba(0, 0, 0, 0.3); }
     .wrapper.style2 .icon.major:before {
       color: #007faa; }
+  .wrapper.style4 {
+    background-color: #30313a;
+    color: #ffffff; }
+    .wrapper.style4 input, .wrapper.style4 select, .wrapper.style4 textarea {
+      color: #ffffff; }
+    .wrapper.style4 a {
+      color: #007faa; }
+    .wrapper.style4 strong, .wrapper.style4 b {
+      color: #ffffff; }
+    .wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
+      color: #ffffff; }
+      .wrapper.style4 h1.major:after, .wrapper.style4 h2.major:after, .wrapper.style4 h3.major:after, .wrapper.style4 h4.major:after, .wrapper.style4 h5.major:after, .wrapper.style4 h6.major:after {
+        background-color: #c28a21; }
+    .wrapper.style4 blockquote {
+      border-left-color: #fff; }
+    .wrapper.style4 code {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: #fff; }
+    .wrapper.style4 hr {
+      border-bottom-color: #fff; }
+    .wrapper.style4 .box {
+      border-color: #fff; }
+    .wrapper.style4 input[type="submit"],
+    .wrapper.style4 input[type="reset"],
+    .wrapper.style4 input[type="button"],
+    .wrapper.style4 button,
+    .wrapper.style4 .button {
+      background-color: transparent;
+      border-color: #fff;
+      color: #ffffff !important; }
+      .wrapper.style4 input[type="submit"]:hover,
+      .wrapper.style4 input[type="reset"]:hover,
+      .wrapper.style4 input[type="button"]:hover,
+      .wrapper.style4 button:hover,
+      .wrapper.style4 .button:hover {
+        background-color: rgba(255, 255, 255, 0.1); }
+      .wrapper.style4 input[type="submit"]:active,
+      .wrapper.style4 input[type="reset"]:active,
+      .wrapper.style4 input[type="button"]:active,
+      .wrapper.style4 button:active,
+      .wrapper.style4 .button:active {
+        background-color: rgba(255, 255, 255, 0.2); }
+      .wrapper.style4 input[type="submit"].icon:before,
+      .wrapper.style4 input[type="reset"].icon:before,
+      .wrapper.style4 input[type="button"].icon:before,
+      .wrapper.style4 button.icon:before,
+      .wrapper.style4 .button.icon:before {
+        color: #ffffff; }
+      .wrapper.style4 input[type="submit"].special,
+      .wrapper.style4 input[type="reset"].special,
+      .wrapper.style4 input[type="button"].special,
+      .wrapper.style4 button.special,
+      .wrapper.style4 .button.special {
+        border: none;
+        background-color: #007faa;
+        color: #ffffff !important; }
+        .wrapper.style4 input[type="submit"].special:hover,
+        .wrapper.style4 input[type="reset"].special:hover,
+        .wrapper.style4 input[type="button"].special:hover,
+        .wrapper.style4 button.special:hover,
+        .wrapper.style4 .button.special:hover {
+          background-color: #0092c4; }
+        .wrapper.style4 input[type="submit"].special:active,
+        .wrapper.style4 input[type="reset"].special:active,
+        .wrapper.style4 input[type="button"].special:active,
+        .wrapper.style4 button.special:active,
+        .wrapper.style4 .button.special:active {
+          background-color: #006c91; }
+        .wrapper.style4 input[type="submit"].special.icon:before,
+        .wrapper.style4 input[type="reset"].special.icon:before,
+        .wrapper.style4 input[type="button"].special.icon:before,
+        .wrapper.style4 button.special.icon:before,
+        .wrapper.style4 .button.special.icon:before {
+          color: #ffffff; }
+    .wrapper.style4 label {
+      color: #ffffff; }
+    .wrapper.style4 input[type="text"],
+    .wrapper.style4 input[type="password"],
+    .wrapper.style4 input[type="email"],
+    .wrapper.style4 select,
+    .wrapper.style4 textarea {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: #fff; }
+      .wrapper.style4 input[type="text"]:focus,
+      .wrapper.style4 input[type="password"]:focus,
+      .wrapper.style4 input[type="email"]:focus,
+      .wrapper.style4 select:focus,
+      .wrapper.style4 textarea:focus {
+        border-color: #007faa;
+        box-shadow: 0 0 0 1px #007faa; }
+    .wrapper.style4 .select-wrapper:before {
+      color: #fff; }
+    .wrapper.style4 input[type="checkbox"] + label,
+    .wrapper.style4 input[type="radio"] + label {
+      color: #ffffff; }
+      .wrapper.style4 input[type="checkbox"] + label:before,
+      .wrapper.style4 input[type="radio"] + label:before {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: #fff; }
+    .wrapper.style4 input[type="checkbox"]:checked + label:before,
+    .wrapper.style4 input[type="radio"]:checked + label:before {
+      background-color: #007faa;
+      border-color: #007faa;
+      color: #ffffff; }
+    .wrapper.style4 input[type="checkbox"]:focus + label:before,
+    .wrapper.style4 input[type="radio"]:focus + label:before {
+      border-color: #007faa;
+      box-shadow: 0 0 0 1px #007faa; }
+    .wrapper.style4 ::-webkit-input-placeholder {
+      color: #ffffff !important; }
+    .wrapper.style4 :-moz-placeholder {
+      color: #ffffff !important; }
+    .wrapper.style4 ::-moz-placeholder {
+      color: #ffffff !important; }
+    .wrapper.style4 :-ms-input-placeholder {
+      color: #ffffff !important; }
+    .wrapper.style4 .formerize-placeholder {
+      color: #ffffff !important; }
+    .wrapper.style4 ul.alt li {
+      border-top-color: #fff; }
+    .wrapper.style4 header p {
+      color: #ffffff; }
+    .wrapper.style4 table tbody tr {
+      border-color: #fff; }
+      .wrapper.style4 table tbody tr:nth-child(2n + 1) {
+        background-color: rgba(255, 255, 255, 0.1); }
+    .wrapper.style4 table th {
+      color: #ffffff; }
+    .wrapper.style4 table thead {
+      border-bottom-color: #fff; }
+    .wrapper.style4 table tfoot {
+      border-top-color: #fff; }
+    .wrapper.style4 table.alt tbody tr td {
+      border-color: #fff; }
+    .wrapper.style4 .features > li {
+      border-top-color: rgba(255, 255, 255, 0.1); }
+    .wrapper.style4 .spotlight {
+      border-bottom-color: #fff; }
+    .wrapper.style4 .icon.major:before {
+      color: #007faa; }
   @media screen and (max-width: 1280px) {
     .wrapper {
       padding: 4em 2em 2em 2em ; } }
@@ -2898,7 +3038,7 @@ body {
 */
 /* Footer */
 #footer {
-  background-color: #444;
+  background-color: #30313a;
   color: #ffffff;
   padding: 5em 0 3em 0 ; }
   #footer input, #footer select, #footer textarea {
