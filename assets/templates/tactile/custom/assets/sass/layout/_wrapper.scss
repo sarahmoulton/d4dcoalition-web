@@ -32,6 +32,10 @@
 			@include color(accent2);
 		}
 
+		&.style4 {
+			@include color(accent4);
+		}
+
 		@include breakpoint(large) {
 			@include padding(4em, 2em);
 		}

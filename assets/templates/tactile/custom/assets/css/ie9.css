@@ -12,7 +12,7 @@
   #banner:after {
     content: '';
     display: block;
-    background: #444;
+    background: #30313a;
     position: absolute;
     top: 0;
     left: 0;
@@ -64,7 +64,7 @@
   #main > header:after {
     content: '';
     display: block;
-    background: #444;
+    background: #30313a;
     position: absolute;
     top: 0;
     left: 0;

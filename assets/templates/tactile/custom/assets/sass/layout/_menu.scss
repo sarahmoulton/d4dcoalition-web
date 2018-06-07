@@ -7,8 +7,8 @@
 /* Menu */
 
 	#menu {
-		@include color-typography(accent2);
-		@include color-button(accent2);
+		@include color-typography(accent1);
+		@include color-button(accent1);
 		@include vendor('transform', 'translateX(20em)');
 		@include vendor('transition', ('transform #{_duration(menu)} ease', 'box-shadow #{_duration(menu)} ease', 'visibility #{_duration(menu)}'));
 		-webkit-overflow-scrolling: touch;
