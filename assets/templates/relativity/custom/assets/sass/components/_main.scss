@@ -68,6 +68,14 @@
 			@include color(accent2);
 		}
 
+		&.accent3 {
+			@include color(accent3);
+		}
+
+		&.accent4 {
+			@include color(accent4);
+		}
+
 		&.alt {
 			background-image: url('../../images/womens-march-dc-filtered.png');
 			background-size: cover;
@@ -77,7 +85,7 @@
 
 		&.special {
 			text-align: center;
-			@include color-typography(accent3);
+			//@include color-typography(accent3);
 		}
 
 		&.special.alt {
