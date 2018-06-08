@@ -2357,7 +2357,7 @@ body {
   -ms-align-items: center;
   align-items: center;
   padding: 4em 0 2em 0 ;
-  background-image: linear-gradient(rgba(26, 28, 33, 0.75), rgba(26, 28, 33, 0.75)), url("../../images/science-march.jpg");
+  background-image: linear-gradient(rgba(26, 28, 33, 0.75), rgba(26, 28, 33, 0.75)), url("../../images/hero1.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;

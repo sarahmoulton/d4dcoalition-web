@@ -1,5 +1,7 @@
 ---
+layout: post
 title: Kevin Casas-Zamora
+description:
 image: kevin_casas-zamora.jpg
 ---
 Kevin Casas-Zamora was the director of the Inter-American Dialogue’s Peter D. Bell Rule of Law Program. He was previously secretary for political affairs at the Organization of American States and non-resident senior fellow with the Foreign Policy Program’s Latin America Initiative at the Brookings Institution. From 2006 to 2007, Casas-Zamora served as second vice president and minister of national planning under the administration of Dialogue member Óscar Arias. He was also general coordinator of Costa Rica’s award-winning National Human Development Report for the United Nations Development Program.

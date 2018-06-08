@@ -12,7 +12,7 @@ layout: full
     <ul id="og-grid" class="og-grid">
       {%- for bio in site.bios -%}
       <li>
-        <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="{{ '/assets/img/bios/' | relative_url }}{{ bio.image }}" data-title="{{ bio.title | escape }}" data-description="{{ bio.content }}">
+        <a href="{{ bio.url | relative_url }}" data-largesrc="{{ '/assets/img/bios/' | relative_url }}{{ bio.image }}" data-title="{{ bio.title | escape }}" data-description="{{ bio.content }}">
           <img src="{{ '/assets/img/bios/' | relative_url }}{{ bio.image }}" alt="{{ bio.title | escape }}" class="headshot" />
         </a>
         <div class="og-expander">
