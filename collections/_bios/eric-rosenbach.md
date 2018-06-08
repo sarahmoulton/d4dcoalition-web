@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: bio
 title: Eric Rosenbach
 description:
-image: eric_rosenbach.jpg
+image: /assets/img/bios/eric_rosenbach.jpg
 ---
 Eric Rosenbach is Co-Director of the Belfer Center and a Harvard Kennedy School Public Policy Lecturer. He also heads the Center's Defending Digital Democracy project.
 

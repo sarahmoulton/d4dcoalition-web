@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: bio
 title: Soraya Chemaly
 description:
-image: soraya_chemaly.jpg
+image: /assets/img/bios/soraya_chemaly.jpg
 ---
 Soraya Chemaly is an award-winning writer and media critic whose writing appears regularly in national and international media including The Atlantic, The Nation, Verge, Quartz, TIME, Salon, The Guardian and The New Statesman. She speaks frequently on topics related to inclusivity, free speech, sexualized violence, data and technology. She is the director of the Women’s Media Center Speech Project and organizer of the Safety and Free Speech Coalition, an international civil society network dedicated to expanding women’s civic and political participation. She currently serves on the national boards of the Women's Media Center and Women, Action and the Media, as well as on the advisory councils of the Center for Democracy and Technology, VIDA, and Common Sense Media. As an activist, Ms. Chemaly has spear-headed multiple successful campaigns challenging corporations to address online harassment and abuse, restrictive content moderation and censorship, and institutional biases that affect free speech.
 

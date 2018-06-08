@@ -29,22 +29,14 @@ social:
   links:
     - https://twitter.com/design4dem
     - https://www.facebook.com/Design4Democracy
-google_site_verification: ""
 
 # Twitter card defaults
 twitter:
-  username: jekyllrb
+  username: design4dem
   card: summary
 
-# If using Facebook Insights
-facebook:
-  app_id:
-  publisher:
-  admins:
-
 # Theme specific settings
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: design4dem
 
 # Collections
 collections_dir: collections
