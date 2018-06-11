@@ -1,4 +1,4 @@
-@import url(css/font-awesome.min.css);
+@import url(/assets/css/font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,900");
 /*
 	Relativity by Pixelarity
@@ -2126,6 +2126,10 @@ ul {
     -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     list-style: none;
     padding-left: 0; }
     ul.faces li {
@@ -2143,9 +2147,10 @@ ul {
       align-items: center;
       padding-left: 0;
       text-align: center;
-      margin: 0 0 0 4rem; }
-      ul.faces li:first-child {
-        margin-left: 0; }
+      margin: 0 3rem 2rem 0;
+      width: 250px; }
+      ul.faces li:nth-child(3n) {
+        margin-right: 0; }
       ul.faces li > :last-child {
         margin-bottom: 0; }
       ul.faces li .image {
@@ -2153,7 +2158,10 @@ ul {
         margin: 0 0 1.5rem 0; }
         ul.faces li .image img {
           border-radius: 100%;
-          width: 8rem; }
+          width: 8rem;
+          object-fit: cover;
+          width: 200px;
+          height: 200px; }
       ul.faces li h3 {
         font-size: 0.8rem;
         margin: 0 0 0.25rem 0; }
