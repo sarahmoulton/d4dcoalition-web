@@ -138,6 +138,7 @@
 			@include vendor('display', 'flex');
 			@include vendor('align-items', 'center');
 			@include vendor('justify-content', 'center');
+			@include vendor('flex-wrap', 'wrap');
 			list-style: none;
 			padding-left: 0;
 
@@ -147,10 +148,11 @@
 				@include vendor('align-items', 'center');
 				padding-left: 0;
 				text-align: center;
-				margin: 0 0 0 (_size(element-margin) * 2);
+				margin: 0 (_size(element-margin) * 1.5) 2rem 0;
+				width:250px;
 
-				&:first-child {
-					margin-left: 0;
+				&:nth-child(3n) {
+					margin-right: 0;
 				}
 
 				> :last-child {
@@ -164,6 +166,9 @@
 					img {
 						border-radius: 100%;
 						width: 8rem;
+						object-fit: cover;
+						width:200px;
+						height:200px;
 					}
 				}
 

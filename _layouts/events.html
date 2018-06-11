@@ -14,7 +14,7 @@ layout: page
         {%- assign date_format = "%b %-d, %Y" -%}
         <span class="post-meta">{{ event.event_date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+          <a class="post-link" href="{{ event.url | relative_url }}">
             {{ event.title | escape }}
           </a>
         </h3>

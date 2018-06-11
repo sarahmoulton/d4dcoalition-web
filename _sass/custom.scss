@@ -1,4 +1,5 @@
-/* used for bio page */
-.wrapper.full {
-  max-width: calc(1400px - (30px * 2))
+#wrapper > .main.special {
+  input, select, textarea {
+    color: _palette(fg-bold);
+  }
 }

@@ -2,7 +2,7 @@
 @import 'relativity/libs/functions';
 @import 'relativity/libs/mixins';
 @import 'relativity/libs/skel';
-@import 'css/font-awesome.min.css';
+@import '/assets/css/font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,900');
 
 /*
@@ -66,9 +66,3 @@
 	@import 'relativity/layout/banner';
 	@import 'relativity/layout/footer';
 	@import 'relativity/layout/navPanel';
-
-	#wrapper > .main.special {
-		input, select, textarea {
-			color: _palette(fg-bold);
-		}
-	}

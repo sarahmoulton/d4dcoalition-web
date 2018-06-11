@@ -21,15 +21,20 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Navigation links
-# to do -- how does this work?!?
-# header_pages:
+header_pages:
+  - who-we-are.md
+  - bios.md
+  - events.md
+
+# Theme Settings
+relativity:
+  date_format: "%b %-d, %Y"
 
 # SEO Meta - global settings
 lang: en_US
 author: ""
 logo: ""
 social:
-#  name:
   links:
     twitter: https://twitter.com/design4dem
     facebook: https://www.facebook.com/Design4Democracy
@@ -38,9 +43,6 @@ social:
 twitter:
   username: design4dem
   card: summary
-
-# Theme specific settings
-twitter_username: design4dem
 
 # Collections
 collections_dir: collections
@@ -54,7 +56,7 @@ collections:
 
 # Build settings
 markdown: kramdown
-#theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

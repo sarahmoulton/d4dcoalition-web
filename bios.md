@@ -6,6 +6,5 @@ layout: bios
 title: Bios
 permalink: /bios/
 description: Learn about our people and stuff.
+intro: This is the introductory content for the bios page. I figure it makes the most sense to maintain this here, in the event it is necessary.
 ---
-
-This is the introductory content for the bios page. I figure it makes the most sense to maintain this here, in the event it is necessary.

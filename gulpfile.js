@@ -28,7 +28,7 @@ const cssFiles  = '_sass/**/*.?(s)css';
  */
 gulp.task('css', () => {
   return gulp.src(cssFiles)
-    .pipe(plumber({errorHandler: notify.onError("CSS Error occurred.")}))
+    .pipe(plumber())
     .pipe(sass())
     .pipe(autoprefixer({
         browsers: ['last 2 versions'],
@@ -42,7 +42,7 @@ gulp.task('css', () => {
 
 gulp.task('img', () => {
   return gulp.src('assets/img/**')
-    .pipe(plumber({errorHandler: notify.onError("Img Error: <%= error.message %>")}))
+    .pipe(plumber())
     .pipe(imagemin())
     .pipe(gulp.dest('assets/img/'))
     .pipe(notify({message:"Image optimization completed.",onLast:true}));
