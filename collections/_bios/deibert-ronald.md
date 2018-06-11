@@ -3,6 +3,7 @@ layout: bio
 title: Professor Ronald Deibert
 description:
 image: /assets/img/bios/ron_deibert.jpg
+slug: ronald-deibert
 ---
 Ron Deibert, (OOnt, PhD, University of British Columbia) is Professor of Political Science, and Director of the Citizen Lab at the Munk School of Global Affairs, University of Toronto. The Citizen Lab is an interdisciplinary laboratory focusing on research, development, and high-level strategic policy and legal engagement at the intersection of information and communication technologies, human rights, and global security. He was a co-founder and a principal investigator of the OpenNet Initiative (2003-2014) and Information Warfare Monitor (2003-2012) projects. Deibert was one of the founders and (former) VP of global policy and outreach for Psiphon, one of the world’s leading digital censorship circumvention services.
 

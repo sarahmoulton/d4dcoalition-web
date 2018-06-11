@@ -49,8 +49,10 @@ collections_dir: collections
 collections:
   bios:
     output: true
+    permalink: /:collection/:title.html
   events:
     output: true
+    permalink: /:collection/:title.html
   news:
     output: false
 

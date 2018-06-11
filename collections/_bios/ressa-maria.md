@@ -3,6 +3,7 @@ layout: bio
 title: Maria Ressa
 description:
 image: /assets/img/bios/maria_ressa.jpg
+slug: maria-ressa
 ---
 Maria has been a journalist in Asia for more than 25 years, most of them as CNN’s bureau chief in Manila then Jakarta. She became CNN’s lead investigative reporter focusing on terrorism in Southeast Asia and wrote "Seeds of Terror: An Eyewitness Account of al-Qaeda’s Newest Center of Operations in Southeast Asia" (Free Press, 2003). The book was the first from the region documenting the growth of Jemaah Islamiyah and its links to Al-Qaeda.
 

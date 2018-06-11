@@ -3,6 +3,7 @@ layout: bio
 title: Eileen Donahoe
 description:
 image: /assets/img/bios/eileen_donahoe.jpg
+slug: eileen-donahoe
 ---
 Eileen Donahoe is Executive Director of the Global Digital Policy Incubator at Stanford University’s Center for Democracy, Development and the Rule of Law, where she works to develop global digital policies that address human rights, security and governance challenges. She served as the first US Ambassador to the United Nations Human Rights Council in Geneva, during the Obama Administration. After leaving government, she was Director of Global Affairs at Human Rights Watch where she represented the organization worldwide on human rights foreign policy.
 

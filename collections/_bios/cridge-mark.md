@@ -3,6 +3,7 @@ layout: bio
 title: Mark Cridge
 description:
 image: /assets/img/bios/mark_cridge.jpg
+slug: mark-cridge
 ---
 Mark joined mySociety in the summer of 2015, replacing original founder Tom Steinberg.
 

@@ -3,6 +3,7 @@ layout: bio
 title: Professor Marco Aurelio Ruediger
 description:
 image: /assets/img/bios/marco_aurelio_ruediger.jpg
+slug: marco-aurelio-ruediger
 ---
 Professor Marco Aurelio Ruediger holds a Doctoral Degree in sociology and a Master Degree in Management and Policy Analysis. He is currently the Director of Public Policy Analysis at FGV, where he conducts research on innovation of the State structures, data transparency, social networks, technological innovation and democracy, public security and immigration.
 

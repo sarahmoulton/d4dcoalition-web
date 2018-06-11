@@ -3,6 +3,7 @@ layout: bio
 title: Margo Gontar
 description:
 image: /assets/img/bios/margo_gontar.jpg
+slug: margo-gontar
 ---
 Margo Gontar is co-founder of the StopFake project, which battles false information about events in Ukraine, often dealing with Kremlin propaganda in Russian and foreign media. Margo is also a TV host of the weekly news digest StopFakeNews.
 

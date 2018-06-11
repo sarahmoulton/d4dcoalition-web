@@ -3,6 +3,7 @@ layout: bio
 title: Professor Philip Howard
 description:
 image: /assets/img/bios/philip_howard.png
+slug: philip-howard
 ---
 Philip N. Howard is a statutory Professor of Internet Studies at the Oxford Internet Institute and Balliol College at the University of Oxford. He has courtesy appointments as a professor at the University of Washington’s Department of Communication and as a fellow at Columbia University’s Tow Center for Digital Journalism.
 
