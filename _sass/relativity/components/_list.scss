@@ -149,7 +149,7 @@
 				padding-left: 0;
 				text-align: center;
 				margin: 0 (_size(element-margin) * 1.5) 2rem 0;
-				width:250px;
+				width:14.423360952rem;
 
 				&:nth-child(3n) {
 					margin-right: 0;
@@ -163,18 +163,22 @@
 					border-radius: 100%;
 					margin: 0 0 (_size(element-margin) * 0.75) 0;
 
+					a {
+						border-bottom: none;
+					}
+
 					img {
 						border-radius: 100%;
-						width: 8rem;
-						object-fit: cover;
-						width:200px;
-						height:200px;
+						width: 12rem;
+						height:12rem;
 					}
 				}
 
 				h3 {
 					font-size: 0.8rem;
 					margin: 0 0 (_size(element-margin) * 0.125) 0;
+					text-transform: uppercase;
+					letter-spacing: 0.05em;
 				}
 
 				p {
@@ -199,6 +203,7 @@
 					.image {
 						img {
 							width: 6rem;
+							height: 6rem;
 						}
 					}
 				}
@@ -208,11 +213,15 @@
 				display: block;
 
 				li {
-					margin: 0 0 _size(element-margin) 0;
+					margin: 0 auto 4rem;
+					&:nth-child(3n) {
+						margin-right: auto;
+					}
 
 					.image {
 						img {
 							width: 10rem;
+							height:10rem;
 						}
 					}
 

@@ -2,7 +2,7 @@
 layout: page
 ---
     {%- if page.image -%}
-    <img src="{{page.image | relative_url}}" />
+    <img src="{{page.image | relative_url}}" class="bio-image" />
     {%- endif -%}
     {{ content }}
   <p><a href="{{ "/bios" | relative_url }}">Back to Bios</a></p>

@@ -6,6 +6,5 @@ layout: events
 title: Events
 permalink: /events/
 description: Things happening with the coalition.
+intro: This is the introductory content for the events page. I figure it makes the most sense to maintain this here, in the event it is necessary.
 ---
-
-This is the introductory content for the events page. I figure it makes the most sense to maintain this here, in the event it is necessary.

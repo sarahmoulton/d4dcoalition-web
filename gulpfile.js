@@ -35,7 +35,6 @@ gulp.task('css', () => {
         cascade: false
     }))
     .pipe(cleanCSS({}))
-    .pipe(concat('custom.css'))
     .pipe(gulp.dest('assets/css/'))
     .pipe(notify({message:"CSS optimization completed.",onLast:true}));
 });
