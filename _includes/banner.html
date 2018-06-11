@@ -1,0 +1,10 @@
+<!-- Banner -->
+  {%- assign banner_image = page.banner.image | default: "/assets/img/banners/default.jpg" | relative_url}} -%}
+  <section id="banner" style="background-image:url('{{banner_image}}')">
+    <div class="content">
+      {%- if page.banner.title -%}
+        <h1>{{ page.banner.title }}</h1>
+      {%- endif -%}
+    </div>
+    <a href="#first" class="more scrolly">Learn More</a>
+  </section>

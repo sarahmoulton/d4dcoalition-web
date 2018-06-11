@@ -1,0 +1,74 @@
+@import 'relativity/libs/vars';
+@import 'relativity/libs/functions';
+@import 'relativity/libs/mixins';
+@import 'relativity/libs/skel';
+@import 'css/font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,900');
+
+/*
+	Relativity by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+*/
+
+	@include skel-breakpoints((
+		xlarge: '(max-width: 1680px)',
+		large: '(max-width: 1280px)',
+		medium: '(max-width: 980px)',
+		small: '(max-width: 736px)',
+		xsmall: '(max-width: 480px)',
+		xxsmall: '(max-width: 360px)'
+	));
+
+	@include skel-layout((
+		reset: 'full',
+		boxModel: 'border',
+		grid: ( gutters: 1.5rem )
+	));
+
+	.row {
+		&:after {
+			height: 0.5px;
+		}
+	}
+
+	@mixin color($p) {
+		@include color-typography($p);
+		@include color-box($p);
+		@include color-button($p);
+		@include color-form($p);
+		@include color-list($p);
+		@include color-table($p);
+		@include color-post($p);
+	}
+
+// Base.
+
+	@import 'relativity/base/page';
+	@import 'relativity/base/typography';
+
+// Component.
+
+	@import 'relativity/components/box';
+	@import 'relativity/components/button';
+	@import 'relativity/components/form';
+	@import 'relativity/components/icon';
+	@import 'relativity/components/image';
+	@import 'relativity/components/list';
+	@import 'relativity/components/table';
+	@import 'relativity/components/post';
+	@import 'relativity/components/main';
+
+// Layout.
+
+	@import 'relativity/layout/wrapper';
+	@import 'relativity/layout/header';
+	@import 'relativity/layout/banner';
+	@import 'relativity/layout/footer';
+	@import 'relativity/layout/navPanel';
+
+	#wrapper > .main.special {
+		input, select, textarea {
+			color: _palette(fg-bold);
+		}
+	}

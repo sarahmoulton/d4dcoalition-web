@@ -1,24 +1,24 @@
 ---
-layout: full
+layout: page
 ---
-<div class="wrapper">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}</div>
-
-  {%- if site.bios.size > 0 -%}
-    <ul id="og-grid" class="og-grid">
+<!-- Section -->
+<section class="main">
+  <header>
+    {{ content }}
+  </header>
+  <div class="inner">
+    {%- if site.bios.size > 0 -%}
+    <ul class="faces">
       {%- for bio in site.bios -%}
       <li>
-        <a href="{{ bio.url | relative_url }}" data-title="{{ bio.title | escape }}">
-          <img src="{{ bio.image | relative_url }}" alt="{{ bio.title | escape }}" class="headshot" />
-          <div class="bio-meta">
-            <h5 style="position:relative; top:-2em; color:black; font-weight:bold;">{{ bio.title | escape }}</h4>
-          </div>
+        <a href="{{bio.url | relative_url}}">
+          <span class="image"><img src="{{ bio.image | relative_url }}" alt="{{ bio.title | escape }}" /></span>
+          <h3>{{ bio.title | escape }}</h3>
+          <!--p>Sed magna etiam</p-->
         </a>
       </li>
       {%- endfor -%}
     </ul>
   {%- endif -%}
+  </div>
+</section>

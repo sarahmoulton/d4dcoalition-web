@@ -2,13 +2,12 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
-title: Who We Are
+layout: page
+title: Focus Areas
 permalink: /who-we-are/
 description: Learn about our people and stuff.
+intro: This is an introductory statement, if needed.
 ---
-## Focus Areas
-
 ### Disinformation and Computational Propaganda Working Group
 
 Coalition members are coordinating projects and sharing information regarding tech-enabled efforts to undermine the integrity of information and spread false or misleading narratives.

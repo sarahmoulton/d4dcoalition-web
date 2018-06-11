@@ -28,7 +28,7 @@ const cssFiles  = '_sass/**/*.?(s)css';
  */
 gulp.task('css', () => {
   return gulp.src(cssFiles)
-    .pipe(plumber({errorHandler: notify.onError("CSS Error: <%= error.message %>")}))
+    .pipe(plumber({errorHandler: notify.onError("CSS Error occurred.")}))
     .pipe(sass())
     .pipe(autoprefixer({
         browsers: ['last 2 versions'],

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<section class="main alt" aria-label="Content">
+    <header>
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+      {{ page.intro | textilize }}
+    </header>
+    <div class="image main" data-position="center"><img src="{{ page.banner.image | relative_url }}" alt="" /></div>
+    <div class="inner style2">
+      {{ content }}
+    </div>
+</section>

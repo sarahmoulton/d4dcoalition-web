@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+  <!-- Wrapper -->
+  <div id="wrapper">
+    {%- include header.html -%}
+
+    {{content}}
+
+    {%- include footer.html -%}
+  </div><!-- /wrapper -->
+  <!-- Scripts -->
+    <script src="{{"assets/js/jquery.min.js" | relative_url}}"></script>
+    <script src="{{"assets/js/jquery.dropotron.min.js" | relative_url}}"></script>
+    <script src="{{"assets/js/jquery.scrollex.min.js" | relative_url}}"></script>
+    <script src="{{"assets/js/jquery.scrolly.min.js" | relative_url}}"></script>
+    <script src="{{"assets/js/skel.min.js" | relative_url}}"></script>
+    <script src="{{"assets/js/util.js" | relative_url}}"></script>
+    <script src="{{"assets/js/main.js" | relative_url}}"></script>
+  </body>
+
+</html>

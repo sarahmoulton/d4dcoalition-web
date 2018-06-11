@@ -3,7 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-list_title: Events
+banner:
+  image: /assets/img/banners/banner1.jpg
+  title: Design for Democracy
 ---
 The Design for Democracy Coalition is a global consortium of democracy and human rights organizations who rely on the internet to advocate for more just, democratic societies. We are organizations and advocates from a diverse collection of regions, political ideologies, and backgrounds, united in our shared commitment to a more open, inclusive and democratic world.
 
