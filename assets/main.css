@@ -2907,7 +2907,7 @@ table.alt tbody tr td {
       #wrapper > .main.accent4 .post {
         border-top-color: rgba(255, 255, 255, 0.125); } }
   #wrapper > .main.alt {
-    background-image: url("img/bg.png");
+    background-image: url("../img/bg.png");
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed; }
@@ -3462,6 +3462,3 @@ body.is-navPanel-visible #navPanel {
   -ms-transform: translateX(0);
   transform: translateX(0);
   visibility: visible; }
-
-#wrapper > .main.special input, #wrapper > .main.special select, #wrapper > .main.special textarea {
-  color: #30313a; }
