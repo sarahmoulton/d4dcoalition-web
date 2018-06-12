@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Tarik Nesh-Nash
 description:
 image: /assets/img/bios/tarik-nesh-nash.jpg

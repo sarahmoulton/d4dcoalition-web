@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Kevin Casas-Zamora
 description:
 image: /assets/img/bios/kevin_casas-zamora.jpg

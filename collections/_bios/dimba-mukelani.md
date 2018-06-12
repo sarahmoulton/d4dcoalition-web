@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Mukelani Dimba
 description:
 image: /assets/img/bios/mukelani_dimba.jpg

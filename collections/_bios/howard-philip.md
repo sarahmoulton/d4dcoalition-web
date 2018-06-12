@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Professor Philip Howard
 description:
 image: /assets/img/bios/philip_howard.png

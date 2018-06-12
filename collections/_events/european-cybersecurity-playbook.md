@@ -1,5 +1,4 @@
 ---
-layout: event
 title:  Coalition Partners Launch European Cybersecurity Playbook
 #date: #this is the publication date.
 event_date: 2018-06-18

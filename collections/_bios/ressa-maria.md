@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Maria Ressa
 description:
 image: /assets/img/bios/maria_ressa.jpg

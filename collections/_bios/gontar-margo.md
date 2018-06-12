@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Margo Gontar
 description:
 image: /assets/img/bios/margo_gontar.jpg

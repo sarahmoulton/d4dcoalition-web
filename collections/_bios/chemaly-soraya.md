@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Soraya Chemaly
 description:
 image: /assets/img/bios/soraya_chemaly.jpg

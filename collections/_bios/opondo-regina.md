@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Regina Opondo
 description:
 image: /assets/img/bios/regina_opondo.jpg

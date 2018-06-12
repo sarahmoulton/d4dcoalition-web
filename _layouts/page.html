@@ -9,5 +9,9 @@ layout: default
     <div class="image main" data-position="center"><img src="{{ page.banner.image | relative_url }}" alt="" /></div>
     <div class="inner style2">
       {{ content }}
+
+      {%- if page.list -%}
+        {%- include {{page.list}}.html -%}
+      {%- endif -%}
     </div>
 </section>

@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Chia-liang Kao
 description: "Chia-liang Kao is best known for creating SVK, a distributed version control system based on Subversion."
 image: /assets/img/bios/cl_kao.png

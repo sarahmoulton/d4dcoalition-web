@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Eric Rosenbach
 description:
 image: /assets/img/bios/eric_rosenbach.jpg

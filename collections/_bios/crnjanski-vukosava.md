@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Vukosava Crnjanski
 description:
 image: /assets/img/bios/vukosava_crnjanski.jpg

@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Krzysztof Izdebski
 description:
 image: /assets/img/bios/krzysztof_izdebski.jpg

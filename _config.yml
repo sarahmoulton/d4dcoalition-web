@@ -56,6 +56,18 @@ collections:
   news:
     output: false
 
+defaults:
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "event"
+  - scope:
+      path: ""
+      type: "bios"
+    values:
+      layout: "bio"
+
 # Build settings
 markdown: kramdown
 

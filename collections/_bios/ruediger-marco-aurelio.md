@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Professor Marco Aurelio Ruediger
 description:
 image: /assets/img/bios/marco_aurelio_ruediger.jpg

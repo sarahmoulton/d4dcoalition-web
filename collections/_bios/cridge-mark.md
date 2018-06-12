@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Mark Cridge
 description:
 image: /assets/img/bios/mark_cridge.jpg

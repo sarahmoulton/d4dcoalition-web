@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Marietje Schaake
 description:
 image: /assets/img/bios/marietje_schaake.jpg

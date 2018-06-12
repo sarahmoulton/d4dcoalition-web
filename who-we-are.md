@@ -1,12 +1,10 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: page
 title: Focus Areas
 permalink: /who-we-are/
 description: Learn about our people and stuff.
 intro: This is an introductory statement, if needed.
+list: partners
 ---
 ### Disinformation and Computational Propaganda Working Group
 
@@ -26,4 +24,4 @@ The Coalition is working directly with industry leaders to develop protocols for
 
 ### Tech and Supporting Partners
 
-Design 4 Democracy is supported through partnerships with the International Republican Institute, the National Democratic Institute, the Harvard University Belfer Center, Facebook, Stanford University, CitizenLab
+Design 4 Democracy is supported through partnerships with the International Republican Institute, the National Democratic Institute, the Harvard University Belfer Center, Facebook, Stanford University, and CitizenLab.

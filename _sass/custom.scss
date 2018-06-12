@@ -14,7 +14,7 @@ ul.faces a {
   border-bottom: none;
 }
 
-.events {
+.events, .partners {
   display: flex;
   align-items: top;
   justify-content: center;
@@ -36,4 +36,17 @@ ul.faces a {
       padding:1rem;
     }
   }
+}
+.partners {
+  align-items: center;
+  list-style: none outside;
+  margin:0;
+  padding:0;
+
+  .post {
+    width: 33%;
+    min-height: 200px;
+    padding: 3rem;
+  }
+  img {max-width: 100%;}
 }

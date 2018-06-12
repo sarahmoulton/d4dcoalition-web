@@ -1,5 +1,4 @@
 ---
-layout: bio
 title: Eileen Donahoe
 description:
 image: /assets/img/bios/eileen_donahoe.jpg

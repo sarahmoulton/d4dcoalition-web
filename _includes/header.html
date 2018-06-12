@@ -15,7 +15,9 @@
         <ul>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if page.url == my_page.url -%}
+            {%- assign current = page.url | downcase | split: '/' -%}
+            {%- assign nav_segments = my_page.url | downcase | split: '/' -%}
+            {%- if current[1] == nav_segments[1] -%}
               {%- assign classes = "current" -%}
             {%- else -%}
               {%- assign classes = "" -%}

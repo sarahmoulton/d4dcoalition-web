@@ -1,0 +1,17 @@
+- name: International Republican Institute
+  logo: /assets/img/logos/iri.jpg
+
+- name: National Democratic Institute
+  logo: /assets/img/logos/ndi.jpg
+
+- name: Harvard University Belfer Center
+  logo: /assets/img/logos/harvard-belfer-center.jpg
+
+- name: Facebook
+  logo: /assets/img/logos/facebook.png
+
+- name: Stanford University
+  logo: /assets/img/logos/stanford-university.png
+
+- name: CitizenLab
+  logo: /assets/img/logos/citizenlab.jpg
