@@ -4,6 +4,7 @@ layout: default
   {%- include banner.html -%}
   <section class="main alt" id="first" aria-label="Content">
     <header>
-      {{ content }}
+      {{ page.intro | markdownify }}
     </header>
+    {{ content }}
   </section>

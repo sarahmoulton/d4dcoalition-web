@@ -161,7 +161,7 @@
 
 				.image {
 					border-radius: 100%;
-					margin: 0 0 (_size(element-margin) * 0.75) 0;
+					margin: 0 0 (_size(element-margin) * 0.25) 0;
 
 					a {
 						border-bottom: none;
@@ -188,13 +188,13 @@
 
 			@include breakpoint(large) {
 				li {
-					margin: 0 0 0 (_size(element-margin) * 1.5);
+					margin: 0 0 2rem (_size(element-margin) * 1.5);
 				}
 			}
 
 			@include breakpoint(medium) {
 				li {
-					margin: 0 0 0 (_size(element-margin) * 1);
+					margin: 0 0 2rem (_size(element-margin) * 1);
 				}
 			}
 
