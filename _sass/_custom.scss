@@ -24,16 +24,15 @@ ul.faces a {
 
   .post {
     flex-direction: column;
-    padding-left: 0;
     text-align: center;
     width:50%;
-    padding:1rem;
+    padding: _size(element-margin);
     margin:0;
 
     >.content {width:auto;}
 
     &.style2 .content {
-      padding:1rem;
+      padding: _size(element-margin);
     }
   }
 }
@@ -46,7 +45,20 @@ ul.faces a {
   .post {
     width: 33%;
     min-height: 200px;
-    padding: 3rem;
+    padding: _size(element-margin);
+  }
+
+  @include breakpoint(medium) {
+    .post {
+      width: 50%;
+    }
+  }
+
+
+  @include breakpoint(small) {
+    .post {
+      width: auto;
+    }
   }
   img {max-width: 100%;}
 }
