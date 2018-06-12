@@ -23,11 +23,23 @@ a.cta {
   max-width: 23.4375rem;
 }
 
-ul.faces a {
-  border-bottom: none;
+ul.faces {
+  a {
+    border-bottom: none;
+    &:hover {
+      h3 {
+        color: _palette(accent1,bg);
+        @include vendor('transition', (
+    			'color #{_duration(transition)} ease-in-out',
+    			'border-color #{_duration(transition)} ease-in-out',
+    			'box-shadow #{_duration(transition)} ease-in-out'
+    		));
+      }
+    }
+  }
 }
 
-.events, .partners {
+.partners {
   display: flex;
   align-items: top;
   justify-content: center;
@@ -76,5 +88,15 @@ ul.faces a {
   img {max-width: 100%;}
   img[src*="facebook"] {
     max-width: 75%;
+  }
+}
+
+.events {
+  .post {
+    min-height:auto;
+    > .content {
+      width:100%;
+      padding:0 3rem;
+    }
   }
 }
