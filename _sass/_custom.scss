@@ -30,12 +30,18 @@ ul.faces {
       h3 {
         color: _palette(accent1,bg);
         @include vendor('transition', (
-    			'color #{_duration(transition)} ease-in-out',
-    			'border-color #{_duration(transition)} ease-in-out',
-    			'box-shadow #{_duration(transition)} ease-in-out'
-    		));
+          'color #{_duration(transition)} ease-in-out',
+        ));
+      }
+      img {
+        opacity: .3;
+        @include vendor('transition', (
+          'opacity #{_duration(transition)} ease-in-out'
+        ));
       }
     }
+    img {backface-visibility: hidden;}
+    .image {background:_palette(accent1,bg);}
   }
 }
 
