@@ -61,4 +61,7 @@ ul.faces a {
     }
   }
   img {max-width: 100%;}
+  img[src*="facebook"] {
+    max-width: 75%;
+  }
 }

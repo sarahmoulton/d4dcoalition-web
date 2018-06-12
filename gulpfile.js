@@ -115,6 +115,6 @@ gulp.task('build:production', () => {
    });
  });
 
-gulp.task('deploy', gulp.series('build:production','publish'));
+gulp.task('deploy', gulp.series('clean:site','build:production','publish'));
 
 gulp.task('default', gulp.series('clean:site', gulp.parallel('css','img'), gulp.parallel('jekyll', 'serve')));
