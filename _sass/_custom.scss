@@ -1,3 +1,16 @@
+a.cta {
+  color: _palette(accent1, bg);
+  border-bottom: 2px solid _palette(accent2, bg);
+  display: inline-block;
+  @include icon;
+
+  &:before {
+    content: '\f178';
+    float: right;
+    line-height: inherit;
+    margin: 0 -0.25rem 0 0.5rem;
+  }
+}
 #wrapper > .main.special {
   input, select, textarea {
     color: _palette(fg-bold);
@@ -7,7 +20,7 @@
   border-radius: 100%;
   display: block;
   margin: 0 auto 3rem;
-  max-width: 100%;
+  max-width: 23.4375rem;
 }
 
 ul.faces a {
