@@ -170,7 +170,7 @@
 		}
 
 		&.alt {
-			@include color-typography(accent2);
+			@include color-typography(accent3);
 			@include vendor('animation', 'none');
 			box-shadow: none;
 			background-color: transparent;

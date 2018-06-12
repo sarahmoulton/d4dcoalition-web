@@ -28,4 +28,20 @@
 		@include breakpoint(small) {
 			@include padding(2rem, 1.75rem);
 		}
+
+		&.accent1 {
+			@include color(accent1);
+		}
+
+		&.accent2 {
+			@include color(accent2);
+		}
+
+		&.accent3 {
+			@include color(accent3);
+		}
+
+		&.accent4 {
+			@include color(accent4);
+		}
 	}
