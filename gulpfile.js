@@ -48,11 +48,11 @@ gulp.task('styles', () => {
 gulp.task('scripts', function() {
   return gulp.src([
     'assets/js/jquery.min.js',
-    'assets/js/skel.min.js',
-    'assets/js/util.js',
     'assets/js/jquery.dropotron.min.js',
     'assets/js/jquery.scrollex.min.js',
     'assets/js/jquery.scrolly.min.js',
+    'assets/js/skel.min.js',
+    'assets/js/util.js',
     'assets/js/main.js',
   ])
   .pipe(concat('scripts.js'))
