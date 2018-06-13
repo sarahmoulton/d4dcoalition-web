@@ -47,15 +47,19 @@ gulp.task('styles', () => {
  */
 gulp.task('scripts', function() {
   return gulp.src([
-    'assets/js/**/*.js',
-    '!assets/js/scripts.js',
-    '!assets/js/scripts.min.js'
+    'assets/js/jquery.min.js',
+    'assets/js/skel.min.js',
+    'assets/js/util.js',
+    'assets/js/jquery.dropotron.min.js',
+    'assets/js/jquery.scrollex.min.js',
+    'assets/js/jquery.scrolly.min.js',
+    'assets/js/main.js',
   ])
-    .pipe(concat('scripts.js'))
-    .pipe(gulp.dest('assets/js/'))
-    .pipe(rename('scripts.min.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest('assets/js/'));
+  .pipe(concat('scripts.js'))
+  .pipe(gulp.dest('assets/js/'))
+  .pipe(rename('scripts.min.js'))
+  .pipe(uglify())
+  .pipe(gulp.dest('assets/js/'));
 });
 
 /**
