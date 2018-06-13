@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<section class="main alt" aria-label="Content">
+<section class="main alt event" aria-label="Content">
     <header>
       <h1 class="post-title">{{ page.title | escape }}</h1>
       {{ page.intro | markdownify }}
@@ -10,16 +10,17 @@ layout: default
         {{ page.event_date | date: date_format }}
       </p>
     </header>
-    {%- if page.banner.image -%}
-    <div class="image main" data-position="center"><img src="{{ page.banner.image | relative_url }}" alt="" /></div>
-    {%- endif -%}
     <div class="inner style2">
-      {{ content }}
-      {%- if page.registration_link -%}
-      <ul class="actions">
-        <li><a href="{{ page.registration_link }}" class="button next">Register Now</a></li>
-      </ul>
+      {%- if page.banner.image -%}
+      <div class="image main" data-position="center"><img src="{{ page.banner.image | relative_url }}" alt="" /></div>
       {%- endif -%}
-      <p><a href="{{ "/events" | relative_url }}" class="cta">View all Events</a></p>
+      {{ content }}
+
+      <ul class="actions vertical">
+        {%- if page.registration_link -%}
+        <li><a href="{{ page.registration_link }}" class="button next">Register Now</a></li>
+        {%- endif -%}
+        <li><a href="{{ "/events" | relative_url }}" class="cta">View all Events</a></a>
+      </ul>
   </div>
 </section>

@@ -6,6 +6,8 @@ event_date: 2018-06-18
 #image:
 registration_link: https://eventbrite.com
 excerpt: "Coalition partners NDI and the International Republican Institute, along with the Defending Digital Democracy project (D3P) at Harvard Kennedy School’s Belfer Center, convened at Google’s Belgium office for the public launch of the “The Cybersecurity Campaign Playbook: European Edition” on May 22, 2018."
+banner:
+  image: /assets/img/banners/banner2.jpg
 ---
 Coalition partners NDI and the International Republican Institute, along with the Defending Digital Democracy project (D3P) at Harvard Kennedy School’s Belfer Center, convened at Google’s Belgium office for the public launch of the “[The Cybersecurity Campaign Playbook: European Edition][playbook]” on May 22, 2018. The event featured a series of discussions including D3P Senior Fellows Robby Mook and Matt Rhoades, representatives from Microsoft and Google, European parliamentarians and policymakers, and officials from the Belfer Center, IRI and NDI.
 
