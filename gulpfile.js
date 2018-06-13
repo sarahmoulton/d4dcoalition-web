@@ -19,6 +19,8 @@ const cleanCSS      = require('gulp-clean-css');
 const notify        = require("gulp-notify");
 const plumber       = require("gulp-plumber");
 const imagemin      = require('gulp-imagemin');
+const rename        = require('gulp-rename');
+const uglify        = require('gulp-uglify');
 
 const siteRoot  = '_site';
 const cssFiles  = '_sass/**/*.?(s)css';
@@ -26,7 +28,7 @@ const cssFiles  = '_sass/**/*.?(s)css';
 /**
  * Process SASS and concatenate all CSS files into a single file.
  */
-gulp.task('css', () => {
+gulp.task('styles', () => {
   return gulp.src(cssFiles)
     .pipe(plumber())
     .pipe(sass())
@@ -39,6 +41,30 @@ gulp.task('css', () => {
     .pipe(notify({message:"CSS optimization completed.",onLast:true}));
 });
 
+/**
+ * Process JavaScript
+ * @todo need to actually add source order before we can use scripts.min.js...
+ */
+gulp.task('scripts', function() {
+  return gulp.src([
+    'assets/js/**/*.js',
+    '!assets/js/scripts.js',
+    '!assets/js/scripts.min.js'
+  ])
+    .pipe(concat('scripts.js'))
+    .pipe(gulp.dest('assets/js/'))
+    .pipe(rename('scripts.min.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('assets/js/'));
+});
+
+/**
+ * Compress Images
+ * We are just overwriting the originals with the lossless optimized versions.
+ * Ultimately, we need a better way to handle files that are part of
+ * .site given we can't just write to that folder as Jekyll
+ * overwrites it frequently.
+ */
 gulp.task('img', () => {
   return gulp.src('assets/img/**')
     .pipe(plumber())
@@ -81,7 +107,7 @@ gulp.task('serve', () => {
     });
 
     // rebuild files as changes occur
-    gulp.watch(cssFiles, gulp.parallel('css'));
+    gulp.watch(cssFiles, gulp.parallel('styles'));
     gulp.watch(siteRoot + '/**/*.*').on('change', browserSync.reload);
 
   }, 2000);
@@ -117,4 +143,4 @@ gulp.task('build:production', () => {
 
 gulp.task('deploy', gulp.series('clean:site','build:production','publish'));
 
-gulp.task('default', gulp.series('clean:site', gulp.parallel('css','img'), gulp.parallel('jekyll', 'serve')));
+gulp.task('default', gulp.series('clean:site', gulp.parallel('styles', 'scripts', 'img'), gulp.parallel('jekyll', 'serve')));

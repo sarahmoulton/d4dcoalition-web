@@ -24,6 +24,10 @@ a.cta {
 }
 
 ul.faces {
+  li {width:14rem;}
+  @include breakpoint('small') {
+    li {width:10rem;}
+  }
   a {
     border-bottom: none;
     &:hover {
