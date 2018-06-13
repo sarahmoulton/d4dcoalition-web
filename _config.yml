@@ -30,6 +30,9 @@ header_pages:
 relativity:
   date_format: "%b %-d, %Y"
 
+# Google Analytics
+google_analytics: UA-19233744-1
+
 # SEO Meta - global settings
 lang: en_US
 author: ""

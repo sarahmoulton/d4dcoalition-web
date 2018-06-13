@@ -14,6 +14,25 @@
   </div><!-- /wrapper -->
   <!-- Scripts -->
     <script src="{{"assets/js/scripts.min.js" | relative_url}}"></script>
+    <script src="{{"/tarteaucitron/tarteaucitron.js" | relative_url}}"></script>
+    <script type="text/javascript">
+    (function($) {
+      $(document).ready(function(){
+        tarteaucitron.init({
+          "hashtag": "#tarteaucitron", /* Automatically open the panel with the hashtag */
+          "highPrivacy": false, /* disabling the auto consent feature on navigation? */
+          "orientation": "top", /* the big banner should be on 'top' or 'bottom'? */
+          "adblocker": false, /* Display a message if an adblocker is detected */
+          "showAlertSmall": true, /* show the small banner on bottom right? */
+          "cookieslist": true, /* Display the list of cookies installed ? */
+          "removeCredit": false, /* remove the credit link? */
+          //"cookieDomain": ".example.com" /* Domain name on which the cookie for the subdomains will be placed */
+        });
+      });
+    })(jQuery);
+    </script>
+
+    {%- include google-analytics.html -%}
   </body>
 
 </html>
