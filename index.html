@@ -19,7 +19,8 @@
 <script type="application/ld+json">
 {"headline":"Design for Democracy","sameAs":{"twitter":"https://twitter.com/design4dem","facebook":"https://www.facebook.com/Design4Democracy"},"description":"The Design for Democracy Coalition is a multi-partisan, global grouping of key actors in the democracy community to better liaise and coordinate with tech companies and social media platforms on matters of shared concern.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/design4democracy"}},"name":"Design for Democracy","@type":"WebSite","url":"/design4democracy/","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/design4democracy/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/design4democracy/feed.xml" title="Design for Democracy" /></head>
+<link rel="stylesheet" href="/design4democracy/assets/main.css">
+  <link rel="stylesheet" href="/design4democracy/tarteaucitron/css/tarteaucitron.css"><link type="application/atom+xml" rel="alternate" href="/design4democracy/feed.xml" title="Design for Democracy" /></head>
 <body>
   <!-- Wrapper -->
   <div id="wrapper"><header class="alt" role="banner" id="header"><!-- Logo -->
@@ -57,13 +58,28 @@
 </footer>
 </div><!-- /wrapper -->
   <!-- Scripts -->
-    <script src="/design4democracy/assets/js/jquery.min.js"></script>
-    <script src="/design4democracy/assets/js/jquery.dropotron.min.js"></script>
-    <script src="/design4democracy/assets/js/jquery.scrollex.min.js"></script>
-    <script src="/design4democracy/assets/js/jquery.scrolly.min.js"></script>
-    <script src="/design4democracy/assets/js/skel.min.js"></script>
-    <script src="/design4democracy/assets/js/util.js"></script>
-    <script src="/design4democracy/assets/js/main.js"></script>
-  </body>
+    <script src="/design4democracy/assets/js/scripts.min.js"></script>
+    <script src="/design4democracy/tarteaucitron/tarteaucitron.js"></script>
+    <script type="text/javascript">
+    (function($) {
+      $(document).ready(function(){
+        tarteaucitron.init({
+          "hashtag": "#tarteaucitron", /* Automatically open the panel with the hashtag */
+          "highPrivacy": false, /* disabling the auto consent feature on navigation? */
+          "orientation": "top", /* the big banner should be on 'top' or 'bottom'? */
+          "adblocker": false, /* Display a message if an adblocker is detected */
+          "showAlertSmall": true, /* show the small banner on bottom right? */
+          "cookieslist": true, /* Display the list of cookies installed ? */
+          "removeCredit": false, /* remove the credit link? */
+          //"cookieDomain": ".example.com" /* Domain name on which the cookie for the subdomains will be placed */
+        });
+      });
+    })(jQuery);
+    </script><script type="text/javascript">
+  tarteaucitron.user.analyticsUa = 'UA-19233744-1';
+  tarteaucitron.user.analyticsMore = function () { /* add here your optionnal ga.push() */ };
+  (tarteaucitron.job = tarteaucitron.job || []).push('analytics');
+</script>
+</body>
 
 </html>
