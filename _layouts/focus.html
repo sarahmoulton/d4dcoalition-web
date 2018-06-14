@@ -12,8 +12,15 @@ layout: default
 
       {%- if page.sections.size > 0 -%}
       {%- for section in page.sections -%}
-        <h3>{{ section.title | escape }}</h3>
-        {{ section.text | markdownify }}
+      <div class="content-section row">
+        <div class="section-icon 2u">
+          <img src="{{section.icon}}" alt="" />
+        </div>
+        <div class="section-text 10u">
+          <h3>{{ section.title | escape }}</h3>
+          {{ section.text | markdownify }}
+        </div>
+      </div><!-- /content-section -->
       {%- endfor -%}
       {%- endif -%}
 
