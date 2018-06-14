@@ -2,29 +2,30 @@
 {%- assign header_classes = "alt" -%}
 {%- endif -%}
   <header class="{{header_classes}}" role="banner" id="header">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
     <!-- Logo -->
     <div class="logo">
       <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     </div>
-    {%- if page_paths -%}
-      <!-- to do: figure out nav "current" class in Jekyll; figure out how to detect dropdown (may be needed in the future) -->
+    {%- if site.data.navigation.size > 0 -%}
+      <!-- to do: figure out how to manage dropdown -->
       <!-- Nav -->
       <nav id="nav">
         <ul>
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- for nav_item in site.data.navigation -%}
+
+            {%- assign my_page = site.pages | where: "path", nav_item.path | first -%}
+
             {%- assign current = page.url | downcase | split: '/' -%}
             {%- assign nav_segments = my_page.url | downcase | split: '/' -%}
+
             {%- if current[1] == nav_segments[1] -%}
               {%- assign classes = "current" -%}
             {%- else -%}
               {%- assign classes = "" -%}
             {%- endif -%}
-            {%- if my_page.title -%}
-            <li class="{{ classes }}"><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-            {%- endif -%}
+
+            <li class="{{ classes }}"><a class="page-link" href="{{ my_page.url | relative_url }}">{{ nav_item.name | escape }}</a></li>
+
           {%- endfor -%}
         </ul>
       </nav>

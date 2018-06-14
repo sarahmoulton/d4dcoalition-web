@@ -1,5 +1,5 @@
 ---
-layout: focus
+layout: icon-sections
 title: Focus Areas
 permalink: /who-we-are/
 description: What the coalition does.
