@@ -14,7 +14,7 @@ layout: default
       {%- for section in page.sections -%}
       <div class="content-section row">
         <div class="section-icon 2u">
-          <img src="{{section.icon}}" alt="" />
+          <img src="{{ section.icon | relative_url }}" alt="" />
         </div>
         <div class="section-text 10u">
           <h3>{{ section.title | escape }}</h3>
