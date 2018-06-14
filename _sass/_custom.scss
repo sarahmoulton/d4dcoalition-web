@@ -21,6 +21,10 @@ a.cta {
   display: block;
   margin: 0 auto 3rem;
   max-width: 23.4375rem;
+
+  @include breakpoint('xsmall') {
+    max-width: 100%;
+  }
 }
 
 ul.faces {
