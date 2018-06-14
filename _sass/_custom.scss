@@ -62,7 +62,7 @@ ul.faces {
   padding-left: 0;
 
   .post {
-    flex-direction: column;
+    display: inline-block;
     text-align: center;
     width:50%;
     padding: _size(element-margin);
