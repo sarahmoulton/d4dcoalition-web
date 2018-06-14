@@ -1,0 +1,8 @@
+- name: Who We Are
+  path: who-we-are.md
+
+- name: Bios
+  path: bios.md
+
+- name: Events
+  path: events.md
