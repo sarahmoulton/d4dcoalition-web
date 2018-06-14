@@ -107,6 +107,10 @@ ul.faces {
     > .content {
       width:100%;
       padding:0 3rem;
+
+      header .category {
+        color: _palette(accent1, bg);
+      }
     }
   }
 }
