@@ -10,24 +10,49 @@
       <!-- to do: figure out how to manage dropdown -->
       <!-- Nav -->
       <nav id="nav">
-        <ul>
-          {%- for nav_item in site.data.navigation -%}
 
-            {%- assign my_page = site.pages | where: "path", nav_item.path | first -%}
+        {%- for nav_item in site.data.navigation -%}
+          {%- if forloop.first -%}<ul>{%- endif -%}
 
-            {%- assign current = page.url | downcase | split: '/' -%}
-            {%- assign nav_segments = my_page.url | downcase | split: '/' -%}
+          {%- assign my_page = site.pages | where: "path", nav_item.path | first -%}
 
-            {%- if current[1] == nav_segments[1] -%}
-              {%- assign classes = "current" -%}
-            {%- else -%}
-              {%- assign classes = "" -%}
-            {%- endif -%}
+          {%- assign current = page.url | downcase | split: '/' -%}
+          {%- assign nav_segments = my_page.url | downcase | split: '/' -%}
 
-            <li class="{{ classes }}"><a class="page-link" href="{{ my_page.url | relative_url }}">{{ nav_item.name | escape }}</a></li>
+          {%- if current[1] == nav_segments[1] -%}
+            {%- assign classes = "current" -%}
+          {%- else -%}
+            {%- assign classes = "" -%}
+          {%- endif -%}
 
-          {%- endfor -%}
-        </ul>
+          {%- if nav_item.sub_menu -%}
+            {%- assign link_classes = "page-link icon fa-angle-down" -%}
+            {%- for sub_nav_item in nav_item.sub_menu -%}
+              {%- assign sub_page = site.pages | where: "path", nav_item.path | first -%}
+              {%- assign nav_segments = sub_page.url | downcase | split: '/' -%}
+              {%- if current[1] == nav_segments[1] -%}
+                {%- assign classes = "current" -%}
+              {%- endif -%}
+            {%- endfor -%}
+          {%- else -%}
+            {%- assign link_classes = "page-link" -%}
+          {%- endif -%}
+
+          <li class="{{ classes }}">
+            <a class="{{ link_classes }}" href="{{ my_page.url | relative_url }}">
+              {{ nav_item.name | escape }}
+            </a>
+            {%- for sub_nav_item in nav_item.sub_menu -%}
+              {%- if forloop.first -%}<ul>{%- endif -%}
+                <a href="{{ my_page.url | relative_url }}">
+                  {{ sub_nav_item.name | escape }}
+                </a>
+              {%- if forloop.last -%}</ul>{%- endif -%}
+            {%- endfor -%}
+          </li>
+
+          {%- if forloop.last -%}</ul>{%- endif -%}
+        {%- endfor -%}
       </nav>
     {%- endif -%}
 </header>

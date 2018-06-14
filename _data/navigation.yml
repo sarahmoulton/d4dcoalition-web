@@ -3,6 +3,15 @@
 
 - name: Bios
   path: bios.md
+  sub_menu:
+  - name: Who We Are
+    path: who-we-are.md
+
+  - name: Bios
+    path: bios.md
+
+  - name: Events
+    path: events.md
 
 - name: Events
   path: events.md
