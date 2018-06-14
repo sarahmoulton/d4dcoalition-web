@@ -44,9 +44,11 @@
             </a>
             {%- for sub_nav_item in nav_item.sub_menu -%}
               {%- if forloop.first -%}<ul>{%- endif -%}
-                <a href="{{ my_page.url | relative_url }}">
-                  {{ sub_nav_item.name | escape }}
-                </a>
+                <li>
+                  <a href="{{ my_page.url | relative_url }}">
+                    {{ sub_nav_item.name | escape }}
+                  </a>
+              </li>
               {%- if forloop.last -%}</ul>{%- endif -%}
             {%- endfor -%}
           </li>
