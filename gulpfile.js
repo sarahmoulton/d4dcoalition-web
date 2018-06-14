@@ -114,7 +114,7 @@ gulp.task('serve', () => {
     gulp.watch(cssFiles, gulp.parallel('styles'));
     gulp.watch(siteRoot + '/**/*.*').on('change', browserSync.reload);
 
-  }, 2000);
+  }, 3000);
 });
 
 /**
@@ -147,4 +147,4 @@ gulp.task('build:production', () => {
 
 gulp.task('deploy', gulp.series('clean:site','build:production','publish'));
 
-gulp.task('default', gulp.series('clean:site', gulp.parallel('styles', 'scripts', 'img'), gulp.parallel('jekyll', 'serve')));
+gulp.task('default', gulp.series('clean:site', gulp.parallel('styles', 'scripts'), gulp.parallel('jekyll', 'serve')));
