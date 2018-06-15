@@ -601,6 +601,7 @@ var skel=function(){"use strict";var t={breakpointIds:null,events:{},isInit:!1,o
 	};
 
 })(jQuery);
+
 /*
 	Relativity by Pixelarity
 	pixelarity.com | hello@pixelarity.com
@@ -716,7 +717,7 @@ var skel=function(){"use strict";var t={breakpointIds:null,events:{},isInit:!1,o
 
 			$(	'<div id="navPanel">' +
 					'<nav>' +
-						$('#nav') .navList() +
+						$('#nav').navList() +
 					'</nav>' +
 					'<a href="#navPanel" class="close"></a>' +
 				'</div>')
