@@ -1,7 +1,7 @@
 ---
-title:  This is just a test event
-event_date: 2018-06-22
-description:
+title: AA This is just a test event
+date: 2018-06-15
+# description: meta description for post.
 image:
 # registration_link: https://eventbrite.com
 excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non autem hoc: igitur ne illud quidem. Hoc loco tenere se Triarius non potuit. Maximus dolor, inquit, brevis est."

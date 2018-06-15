@@ -1,8 +1,8 @@
 ---
 title:  Coalition Partners Launch European Cybersecurity Playbook
-#date: #this is the publication date.
+date: 2018-06-14
 event_date: 2018-06-18
-#description:
+#description: meta description for post.
 #image:
 registration_link: https://eventbrite.com
 excerpt: "Coalition partners NDI and the International Republican Institute, along with the Defending Digital Democracy project (D3P) at Harvard Kennedy School’s Belfer Center, convened at Google’s Belgium office for the public launch of the “The Cybersecurity Campaign Playbook: European Edition” on May 22, 2018."

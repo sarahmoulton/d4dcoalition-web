@@ -1,17 +1,23 @@
+- name: Areas of Focus
+  path: areas-focus.md
+
+- name: News and Events
+  path: news.md
+
 - name: Who We Are
-  path: who-we-are.md
-
-- name: Bios
-  path: bios.md
+  path: advisory-board.md
   sub_menu:
-  - name: Who We Are
-    path: who-we-are.md
+  - name: Advisory Board
+    path: advisory-board.md
 
-  - name: Bios
-    path: bios.md
+  - name: Tech and Supporting Partners
+    path: tech-supporting-partners.md
 
-  - name: Events
-    path: events.md
+  - name: Join Us
+    path: join-us.md
 
-- name: Events
-  path: events.md
+- name: Policies
+  path: privacy-policy.md
+  sub_menu:
+  - name: Privacy Policy
+    path: privacy-policy.md

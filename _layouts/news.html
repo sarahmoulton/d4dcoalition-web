@@ -7,17 +7,18 @@ layout: page
     {{ content }}
   </header>
   <div class="inner events">
-    {%- for event in site.events -%}
+    {%- for article in site.news -%}
       <article class="post">
         <div class="content">
           <header>
             {%- assign date_format = site.relativity.date_format -%}
-            <span class="category">{{ event.event_date | date: date_format }}</span>
-            <h3><a class="post-link" href="{{ event.url | relative_url }}">
-              {{ event.title | escape }}
+            {%- assign display_date = article.event_date | default: date -%}
+            <span class="category">{{ display_date | date: date_format | sort: date }}</span>
+            <h3><a class="post-link" href="{{ article.url | relative_url }}">
+              {{ article.title | escape }}
             </a></h3>
           </header>
-          {{ event.excerpt }}
+          {{ article.excerpt }}
         </div>
       </article>
     {%- endfor -%}
