@@ -30,4 +30,4 @@ exclude:
   - gulpfile.js
   - Gemfile
   - Gemfile.lock
-  - assets/templates/
+  - assets/templates/ # https://pixelarity.com/license

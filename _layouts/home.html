@@ -11,12 +11,14 @@ layout: default
   <!-- Section -->
     <section class="main accent1">
       <header>
-        <h2>News and Events</h2>
-        <p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam facilisis ante sed etiam magna interdum congue.</p>
+        {%- if page.news_title -%}
+        <h2>{{page.news_title | escape}}</h2>
+        {%- endif -%}
+        {{page.news_intro | markdownify}}
       </header>
       <div class="inner">
         {%- assign articles = site.news | sort: 'date' -%}
-        {%- for article in articles -%}
+        {%- for article in articles limit: 3 -%}
           <article class="{%- cycle 'post alt', 'post' -%}"class="post"> <!-- to do: .alt logic -->
             <div class="content">
               <header>
