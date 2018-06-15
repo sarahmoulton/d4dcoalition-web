@@ -22,3 +22,6 @@ facebook:
   app_id:
   publisher:
   admins:
+
+exclude:
+  - assets/templates/

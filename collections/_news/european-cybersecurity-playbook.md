@@ -1,12 +1,12 @@
 ---
 title: Coalition Partners Launch European Cybersecurity Playbook
-date: 2018-06-14 #this is the publication date, and controls display order.
-event_date: 2018-06-18 #for events, this will be displayed in lieu of the post date.
+date: 2018-05-22 #this is the publication date, and controls display order.
+event_date: 2018-05-22 #for events, this will be displayed in lieu of the post date.
+
 # description: meta description for post.
 image: /assets/img/news/photo2.jpg # this is the "thumbnail" image used for teaser and social media contexts throughout the site.
 
 # registration_link: https://eventbrite.com
-
 banner:
   image: /assets/img/news/photo2.jpg
 
