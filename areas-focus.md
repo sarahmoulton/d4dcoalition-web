@@ -22,3 +22,4 @@ sections:
   - title: "Incident Response"
     text: "The Coalition is working directly with industry leaders to develop protocols for reporting, escalating, and resolving tech incidents that threaten to undermine elections or political events in countries around the world."
     icon: /assets/img/icons/icon-incident.svg
+---
