@@ -5,7 +5,7 @@
   path: news.md
 
 - name: Who We Are
-  path: news.md
+  path: advisory-board.md
   sub_menu:
   - name: Advisory Board
     path: advisory-board.md

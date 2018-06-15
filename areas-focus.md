@@ -1,9 +1,10 @@
 ---
 layout: icon-sections
 title: Areas of Focus
-permalink: /who-we-are/
-#description: Meta description of what the coalition does.
-intro: This is an introductory statement, if needed.
+permalink: /areas-focus/
+
+# description: Meta description of what the coalition does.
+# intro: This is an introductory statement, if needed.
 
 sections:
   - title: "Disinformation and Computational Propaganda Working Group"

@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: news
-title: News &amp; Events
+title: News and Events
 permalink: /news-events/
 #description: Meta description of this page.
 # intro: This is the introductory content if needed.
