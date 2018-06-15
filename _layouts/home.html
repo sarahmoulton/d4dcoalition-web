@@ -8,3 +8,30 @@ layout: default
     </header>
     {{ content }}
   </section>
+  <!-- Section -->
+    <section class="main accent1">
+      <header>
+        <h2>News and Events</h2>
+        <p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam facilisis ante sed etiam magna interdum congue.</p>
+      </header>
+      <div class="inner">
+        {%- assign articles = site.news | sort: 'date' -%}
+        {%- for article in articles -%}
+          <article class="{%- cycle 'post alt', 'post' -%}"class="post"> <!-- to do: .alt logic -->
+            <div class="content">
+              <header>
+                {%- assign date_format = site.relativity.date_format -%}
+                {%- assign display_date = article.event_date | default: article.date -%}
+                <span class="category">{{ display_date | date: date_format }}</span>
+                <h3>{{ article.title | escape }}</h3>
+              </header>
+              {{ article.excerpt | markdownify }}
+              <ul class="actions">
+                <li><a href="{{ article.url | relative_url }}" class="button next">Learn More</a></li>
+              </ul>
+            </div>
+            <div class="image" data-position="center"><img src="{{article.image | relative_url }}" alt="" /></div>
+          </article>
+        {%- endfor -%}
+      </div>
+    </section>

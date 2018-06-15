@@ -7,13 +7,14 @@ layout: page
     {{ content }}
   </header>
   <div class="inner events">
-    {%- for article in site.news -%}
+    {%- assign articles = site.news | sort: 'date' -%}
+    {%- for article in articles -%}
       <article class="post">
         <div class="content">
           <header>
             {%- assign date_format = site.relativity.date_format -%}
-            {%- assign display_date = article.event_date | default: date -%}
-            <span class="category">{{ display_date | date: date_format | sort: date }}</span>
+            {%- assign display_date = article.event_date | default: article.date -%}
+            <span class="category">{{ display_date | date: date_format }}</span>
             <h3><a class="post-link" href="{{ article.url | relative_url }}">
               {{ article.title | escape }}
             </a></h3>

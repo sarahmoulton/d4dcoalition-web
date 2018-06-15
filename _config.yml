@@ -47,7 +47,7 @@ collections:
   bios:
     output: false
     permalink: /advisory-board/:title.html
-  news-events:
+  news:
     output: true
     permalink: /:collection/:title.html
   posts:
@@ -56,9 +56,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "events"
+      type: "news"
     values:
-      layout: "event"
+      layout: "article"
   - scope:
       path: ""
       type: "bios"
