@@ -42,6 +42,12 @@
 			position: absolute;
 			left: 1rem;
 
+			img {
+				margin: .25rem 0;
+				max-height: 2.75rem;
+				display: block;
+			}
+
 			strong {
 				font-family: _font(family-heading);
 				font-weight: _font(weight-heading);
