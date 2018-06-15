@@ -1,10 +1,9 @@
 ---
 layout: icon-sections
-title: Focus Areas
+title: Areas of Focus
 permalink: /who-we-are/
-description: What the coalition does.
+#description: Meta description of what the coalition does.
 intro: This is an introductory statement, if needed.
-list: partners
 
 sections:
   - title: "Disinformation and Computational Propaganda Working Group"
@@ -22,8 +21,3 @@ sections:
   - title: "Incident Response"
     text: "The Coalition is working directly with industry leaders to develop protocols for reporting, escalating, and resolving tech incidents that threaten to undermine elections or political events in countries around the world."
     icon: /assets/img/icons/icon-incident.svg
-
-  - title: "Tech and Supporting Partners"
-    text: "Design 4 Democracy is supported through partnerships with the International Republican Institute, the National Democratic Institute, the Harvard University Belfer Center, Facebook, Stanford University, and CitizenLab."
-    icon: /assets/img/icons/icon-partners.svg
----

@@ -45,12 +45,12 @@ twitter:
 collections_dir: collections
 collections:
   bios:
+    output: false
+    permalink: /advisory-board/:title.html
+  news-events:
     output: true
     permalink: /:collection/:title.html
-  events:
-    output: true
-    permalink: /:collection/:title.html
-  news:
+  posts:
     output: false
 
 defaults:
