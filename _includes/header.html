@@ -43,9 +43,10 @@
               {{ nav_item.name | escape }}
             </a>
             {%- for sub_nav_item in nav_item.sub_menu -%}
+              {%- assign sub_page = site.pages | where: "path", sub_nav_item.path | first -%}
               {%- if forloop.first -%}<ul>{%- endif -%}
                 <li>
-                  <a href="{{ my_page.url | relative_url }}">
+                  <a href="{{ sub_page.url | relative_url }}">
                     {{ sub_nav_item.name | escape }}
                   </a>
               </li>
