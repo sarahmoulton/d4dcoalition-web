@@ -62,10 +62,17 @@
 
 		&.accent1 {
 			@include color(accent1);
+			h2 {text-transform: uppercase;}
+			.post > .content header .category {
+				color:_palette(bg);
+				text-transform: uppercase;
+				letter-spacing: 1px;
+			}
 		}
 
 		&.accent2 {
 			@include color(accent2);
+			h2 {text-transform: uppercase;}
 		}
 
 		&.accent3 {
