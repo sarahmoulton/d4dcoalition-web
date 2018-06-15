@@ -113,7 +113,7 @@
 
 			$(	'<div id="navPanel">' +
 					'<nav>' +
-						$('#nav') .navList() +
+						$('#nav').navList() +
 					'</nav>' +
 					'<a href="#navPanel" class="close"></a>' +
 				'</div>')
