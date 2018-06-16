@@ -24,9 +24,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 relativity:
   date_format: "%b %-d, %Y"
 
-# Google Analytics
-google_analytics: UA-19233744-1
-
 # SEO Meta - global settings
 lang: en_US
 author: ""

@@ -1,5 +1,7 @@
+{%- if site.google_analytics -%}
 <script type="text/javascript">
   tarteaucitron.user.analyticsUa = '{{ site.google_analytics }}';
   tarteaucitron.user.analyticsMore = function () { /* add here your optionnal ga.push() */ };
   (tarteaucitron.job = tarteaucitron.job || []).push('analytics');
 </script>
+{%- endif -%}

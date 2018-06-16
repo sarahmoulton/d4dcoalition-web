@@ -17,6 +17,9 @@ baseurl: "design4democracy" # the subpath of your site, e.g. /blog
 
 google_site_verification: ""
 
+# Google Analytics
+google_analytics: UA-120811815-1
+
 # If using Facebook Insights
 facebook:
   app_id:
