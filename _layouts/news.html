@@ -7,7 +7,7 @@ layout: page
     {{ content }}
   </header>
   <div class="inner events">
-    {%- assign articles = site.news | sort: 'date' -%}
+    {%- assign articles = site.news | sort: "date" | reverse -%}
     {%- for article in articles -%}
     <article class="{%- cycle 'post alt', 'post' -%}"class="post"> <!-- to do: .alt logic -->
       <div class="content">
