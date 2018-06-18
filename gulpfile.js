@@ -81,7 +81,7 @@ gulp.task('img', () => {
  * Running Jekyll via Gulp.
  */
 gulp.task('jekyll', () => {
-  const jekyll = child.spawn('jekyll', ['build',
+  const jekyll = child.spawn('bundle exec jekyll', ['build',
     '--drafts',
     '--watch',
     '--incremental'
@@ -130,7 +130,7 @@ gulp.task('clean:site', () => {
  * Build using the production environment var to ensure correct configuration.
  */
 gulp.task('build:production', () => {
-  return exec('JEKYLL_ENV=production jekyll build --config=_config.yml,_config.production.yml');
+  return exec('JEKYLL_ENV=production bundle exec jekyll build --config=_config.yml,_config.production.yml');
 });
 
 /**
@@ -138,7 +138,7 @@ gulp.task('build:production', () => {
  * Build using the Kanopi environment var to ensure correct configuration.
  */
 gulp.task('build:kanopi', () => {
-  return exec('JEKYLL_ENV=kanopi jekyll build --config=_config.yml,_config.kanopi.yml');
+  return exec('JEKYLL_ENV=kanopi bundle exec jekyll build --config=_config.yml,_config.kanopi.yml');
 });
 
 /**
