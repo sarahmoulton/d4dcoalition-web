@@ -28,6 +28,9 @@ Visit http://localhost:4000/ (BrowserSync should automatically spawn this for yo
 ## Deployment
 
 `gulp deploy` will push the build artifacts out to the `gh-pages` branch of this repo.
+**Please Note** that this command does _not_ commit to master. It will build the site locally using the production configuration, compress all images (lossless) and css/js, and deploy.
+
+Production configuration is managed in the `_config.production.yml` file.
 
 ## Built With
 
