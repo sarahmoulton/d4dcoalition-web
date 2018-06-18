@@ -81,7 +81,10 @@ gulp.task('img', () => {
  * Running Jekyll via Gulp.
  */
 gulp.task('jekyll', () => {
-  const jekyll = child.spawn('bundle exec jekyll', ['build',
+  const jekyll = child.spawn('bundle', [
+    'exec',
+    'jekyll',
+    'build',
     '--drafts',
     '--watch',
     '--incremental'
