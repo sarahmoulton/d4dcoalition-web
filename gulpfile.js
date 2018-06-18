@@ -152,7 +152,7 @@ gulp.task('build:kanopi', () => {
  * I'm going to let it go for now.
  */
  gulp.task('publish', (cb) => {
-   return ghpages.publish(path.join(process.cwd(), '_site'), ()=> {});
+   return ghpages.publish(path.join(process.cwd(), siteRoot), ()=> {});
  });
 
 /**
@@ -168,7 +168,7 @@ gulp.task('build:kanopi', () => {
     let config = read.sync('_config.yml');
 
     stream.end(config.url);
-    return stream.pipe(gulp.dest('_site'));
+    return stream.pipe(gulp.dest(siteRoot));
 });
 
 gulp.task('deploy', gulp.series('clean:site','build:production', 'publish:cname','publish'));
