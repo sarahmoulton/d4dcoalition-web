@@ -7,7 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Your system must have the following command line utilities installed!
+Your system must have the following command line utilities installed.
 
 * [Jekyll](https://jekyllrb.com/docs/installation/)
 * Gulp
