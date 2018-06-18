@@ -12,7 +12,7 @@ sections:
     icon: /assets/img/icons/icon-disinformation.svg
 
   - title: "Cybersecurity Working Group"
-    text: "Cyber intrusions present an evolving threat to political institutions, processes, and information integrity.  The Design for Democracy Coalition is collaborating to monitor threats, assess security, and identify protections to help political actors guard against these harms."
+    text: "Cyber intrusions present an evolving threat to political institutions, processes, and information integrity.  The Design 4 Democracy Coalition is collaborating to monitor threats, assess security, and identify protections to help political actors guard against these harms."
     icon: /assets/img/icons/icon-security.svg
 
   - title: "Research Coordination and Support"

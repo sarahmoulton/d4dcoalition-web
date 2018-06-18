@@ -17,12 +17,17 @@
 # The setting below is for the github pages default domain name.
 # For the custom TLD, this will be all served from root, as it is on
 # the local dev configuration.
-baseurl: "design4democracy" # the subpath of your site, e.g. /blog
+#baseurl: "design4democracy" # the subpath of your site, e.g. /blog
 
 google_site_verification: ""
 
 # Google Analytics
 google_analytics: UA-120811815-1
+
+# SEO Overrides
+url: "https://design4democracy.org"
+logo: "/assets/img/logos/d4d-logo.png"
+
 
 # If using Facebook Insights
 facebook:
