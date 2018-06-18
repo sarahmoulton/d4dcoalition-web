@@ -18,7 +18,6 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Design 4 Democracy Coalition is a multi-partisan, global grouping of key actors in the democracy community to better liaise and coordinate with tech companies and social media platforms on matters of shared concern.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Theme Settings
@@ -28,6 +27,7 @@ relativity:
 # SEO Meta - global settings
 lang: en_US
 author: ""
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 logo: ""
 social:
   links:
