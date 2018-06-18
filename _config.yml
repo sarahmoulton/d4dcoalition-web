@@ -26,6 +26,7 @@ relativity:
 
 # SEO Meta - global settings
 lang: en_US
+url: "https://design4democracy.org" # the base hostname & protocol for your site, e.g. http://example.com
 author: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 logo: ""
