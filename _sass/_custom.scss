@@ -124,3 +124,13 @@ ul.faces {
     li {text-align: center;}
   }
 }
+
+#tarteaucitronAlertBig #tarteaucitronPersonalize {
+  margin-top: .5rem;
+}
+@include breakpoint(medium) {
+  #tarteaucitronDisclaimerAlert {
+    display: block;
+    line-height: 1.6 !important;
+  }
+}

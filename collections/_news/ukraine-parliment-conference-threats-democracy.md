@@ -11,5 +11,7 @@ banner:
   image: /assets/img/news/photo1.jpg
 
 excerpt: "On June 8-9, the Verkhovna Rada, Ukraine’s unicameral parliamentary body, hosted a conference to discuss current threats on democracy, which came as a follow-up to the Chairman of the Verkhovna Rada's official visit to Moldova in March of this year."
+
+category: event
 ---
 On June 8-9, the Verkhovna Rada, Ukraine’s unicameral parliamentary body, hosted a conference to discuss current threats on democracy, which came as a follow-up to the Chairman of the Verkhovna Rada's official visit to Moldova in March of this year. The Design 4 Democracy Coalition supported a panel discussion on countering misinformation and cyber threats that featured Design 4 Democracy Advisory Board Member, Margo Gontar (co-founder of StopFake.org).

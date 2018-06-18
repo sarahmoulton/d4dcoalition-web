@@ -5,8 +5,8 @@ tarteaucitron.lang = {
     "reload": "Refresh the page",
 
     "alertBigScroll": "By continuing to scroll,",
-    "alertBigClick": "We do not use cookies for commercial marketing purposes.<br><br>If you continue to browse this website,",
-    "alertBig": "you are allowing all third-party services",
+    "alertBigClick": "We do not use cookies for commercial marketing purposes.<br>If you continue to browse this website,",
+    "alertBig": "you are allowing all third-party services.",
 
     "alertBigPrivacy": "This site uses cookies and gives you control over what you want to activate",
     "alertSmall": "Manage services",

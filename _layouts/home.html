@@ -25,7 +25,7 @@ layout: default
               <header>
                 {%- assign date_format = site.relativity.date_format -%}
                 {%- assign display_date = article.event_date | default: article.date -%}
-                <span class="category">{{ display_date | date: date_format }}</span>
+                <span class="category">{{ article.category }}</span>
                 <h3>{{ article.title | escape }}</h3>
               </header>
               {{ article.excerpt | markdownify }}
