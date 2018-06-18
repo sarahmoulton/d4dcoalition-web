@@ -134,6 +134,14 @@ gulp.task('build:production', () => {
 });
 
 /**
+ * Kanopi build
+ * Build using the Kanopi environment var to ensure correct configuration.
+ */
+gulp.task('build:kanopi', () => {
+  return exec('JEKYLL_ENV=kanopi jekyll build --config=_config.yml,_config.kanopi.yml');
+});
+
+/**
  * Push build to gh-pages branch in GitHub.
  * Notification in callback isn't working correctly but
  * I'm going to let it go for now.
@@ -146,5 +154,7 @@ gulp.task('build:production', () => {
  });
 
 gulp.task('deploy', gulp.series('clean:site','build:production','publish'));
+
+gulp.task('deploy:kanopi', gulp.series('clean:site','build:kanopi','publish'));
 
 gulp.task('default', gulp.series('clean:site', gulp.parallel('styles', 'scripts'), gulp.parallel('jekyll', 'serve')));
