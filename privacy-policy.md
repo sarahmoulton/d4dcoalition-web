@@ -10,7 +10,7 @@ The Design 4 Democracy Coalition takes seriously the privacy of its website visi
 
 sections:
   - THE INFORMATION WE COLLECT AND HOW IT IS GATHERED AND USED
-  ---
+
     text: "Personal Information
 	This notice applies to all personal data collected or submitted on Design 4 Democracy’s websites, as well as information submitted to the Design 4 Democracy through participation in Design 4 Democracy’s programs, applying for or holding employment with the Design 4 Democracy, doing business with the Design 4 Democracy as a vendor, or providing financial support to Design 4 Democracy and its programs. Personal data is data that can be used to identify a living individual. Identification can be from the information alone or in conjunction with any other data in an entity’s possession. Design 4 Democracy seeks to ensure that the personal data processed or controlled by the Design 4 Democracy is treated securely and in a manner that complies with all applicable laws and regulations including, the General Data Protection Regulation (GDPR).
 	Design 4 Democracy collects only the personally identifiable data that is voluntarily provided to the Design 4 Democracy and is necessary for specific business purposes.This data is kept up to date, stored securely, and protected from loss, misuse and unauthorized disclosure through the use of appropriate technical measures. User personal data is retained only for the length of time necessary to fulfill the purposes for which it was obtained and in accordance with Design 4 Democracy’s data retention policy. When data is no longer required, Design 4 Democracy will irrevocably destroy all personal data submitted to it.
