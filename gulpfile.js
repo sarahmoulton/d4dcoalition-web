@@ -21,6 +21,8 @@ const plumber       = require("gulp-plumber");
 const imagemin      = require('gulp-imagemin');
 const rename        = require('gulp-rename');
 const uglify        = require('gulp-uglify');
+const source        = require('vinyl-source-stream');
+const read          = require('read-yaml');
 
 const siteRoot  = '_site';
 const cssFiles  = '_sass/**/*.?(s)css';
@@ -150,13 +152,26 @@ gulp.task('build:kanopi', () => {
  * I'm going to let it go for now.
  */
  gulp.task('publish', (cb) => {
-   return ghpages.publish(path.join(process.cwd(), '_site'), ()=> {
-     notify("Site deployed.");
-     return true;
-   });
+   return ghpages.publish(path.join(process.cwd(), siteRoot), ()=> {});
  });
 
-gulp.task('deploy', gulp.series('clean:site','build:production','publish'));
+/**
+ * CNAME file creation
+ * GitHub Pages requires a CNAME file in the gh-pages branch root to use
+ * an external domain for hosting. We're writing this as part of the build
+ * script since the branch gets wiped every time it is deployed.
+ */
+ gulp.task('publish:cname', () => {
+    // we are storing the site name in _config.yml, so we'll leverage that
+    // rather than hard-code something here.
+    let stream = source('CNAME');
+    let config = read.sync('_config.yml');
+
+    stream.end(config.url);
+    return stream.pipe(gulp.dest(siteRoot));
+});
+
+gulp.task('deploy', gulp.series('clean:site','build:production', 'publish:cname','publish'));
 
 gulp.task('deploy:kanopi', gulp.series('clean:site','build:kanopi','publish'));
 
