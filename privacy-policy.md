@@ -24,6 +24,7 @@ THE INFORMATION WE COLLECT AND HOW IT IS GATHERED AND USED:
    - Participates in Person at an Event or Design 4 Democracy Program: NDI may collect photographic images and video footage of Design 4 Democracy events and programs that may contain participants personal data (including image, name, region and affiliation.) This data may be used to illustrate Design 4 Democracy’s work to donors, as case studies or to promote related Design 4 Democracy events.
    - Makes a Donation to Design 4 Democracy or Purchases a Ticket to an Design 4 Democracy Event: Design 4 Democracy collects credit card information, including the name, address and email address of the cardholder, the card number, expiration date and security code, should an individual choose to provide this information in order to make a donation to the Design 4 Democracy or to purchase tickets to a Design 4 Democracy event. Design 4 Democracy uses this information to process the payment and to send the purchaser or donor receipt of the transaction as well as information necessary for tax purposes.
    - Cookies: Design 4 Democracy uses cookies to collect information about how you use Design 4 Democracy websites. Cookies are small data files that gather information about your use of the site and help Design 4 Democracy improve its website and its service to you. Please see our Cookie Policy on our Terms and Conditions page for more information.
+   
 ----------------------------------------------------------
  SHARING PERSONAL DATA:
  
