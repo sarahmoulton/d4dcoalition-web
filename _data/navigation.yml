@@ -13,8 +13,8 @@
   #- name: Tech and Supporting Partner
     #path: tech-supporting-partners.md
 
-  #- name: Join Us
-    #path: join-us.md
+  - name: Join Us
+    path: join-us.md
 
 #- name: Policies
   #path: privacy-policy.md
