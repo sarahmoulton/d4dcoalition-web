@@ -15,3 +15,9 @@
 
   - name: Join Us
     path: join-us.md
+
+- name: Policies
+  path: privacy-policy.md
+  sub_menu:
+  - name: Privacy Policy
+    path: privacy-policy.md
