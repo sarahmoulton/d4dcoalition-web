@@ -24,6 +24,7 @@ THE INFORMATION WE COLLECT AND HOW IT IS GATHERED AND USED:
    - Participates in Person at an Event or Program: The Coalition may collect photographic images and video footage of Coalition events and programs that may contain participants personal data (including image, name, region and affiliation.)  This data may be used to illustrate the Coalition’s work to donors, as case studies or to promote related events.
    - Makes a Donation to the Design 4 Democracy Design 4 Democracy Coalition: The Coalition collects credit card information, including the name, address and email address of the cardholder, the card number, expiration date and security code, should an individual choose to provide this information in order to make a donation to the Coalition or to purchase tickets to a Design 4 Democracy event. The Coalition uses this information to process the payment and to send the purchaser or donor receipt of the transaction as well as information necessary for tax purposes.
    - Cookies: The Design 4 Democracy Coalition uses cookies to collect information about how you use its websites. Cookies are small data files that gather information about your use of the site and help Design 4 Democracy improve its website and its service to you. 
+
 ----------------------------------------------------------
  SHARING PERSONAL DATA:
  
