@@ -109,7 +109,24 @@ ul.faces {
   img[src*="ndi"] {
     max-width: 35%;
   }
-
+  
+  }
+  img {max-width: 100%;}
+  img[src*="iri"] {
+    max-width: 35%;
+  }
+  
+  }
+  img {max-width: 100%;}
+  img[src*="Twitter"] {
+    max-width: 85%;
+  }
+  
+  }
+  img {max-width: 100%;}
+  img[src*="NED"] {
+    max-width: 75%;
+  }
 
 .events {
   .post {
