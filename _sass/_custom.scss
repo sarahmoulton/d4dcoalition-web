@@ -83,7 +83,7 @@ ul.faces {
 
   .post:first-child {
     width: 100%;
-    min-height: 100px;
+    min-height: 200px;
     padding: _size(element-margin);
   }
 
@@ -102,6 +102,10 @@ ul.faces {
   img {max-width: 100%;}
   img[src*="facebook"] {
     max-width: 75%;
+	
+  img {max-width: 100%;}
+   img[src*="ndi"] {
+      max-width: 65%;
   }
 }
 
