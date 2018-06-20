@@ -102,10 +102,12 @@ ul.faces {
   img {max-width: 100%;}
   img[src*="facebook"] {
     max-width: 75%;
-	
+  }
+  
+  }
   img {max-width: 100%;}
-   img[src*="ndi"] {
-      max-width: 65%;
+  img[src*="ndi"] {
+    max-width: 65%;
   }
 }
 
