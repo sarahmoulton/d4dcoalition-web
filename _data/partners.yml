@@ -1,8 +1,11 @@
+- name: National Democratic Institute
+  logo: /assets/img/logos/ndi.jpg
+  
 - name: International Republican Institute
   logo: /assets/img/logos/iri.jpg
 
-- name: National Democratic Institute
-  logo: /assets/img/logos/ndi.jpg
+- name: NED
+  logo: /assets/img/logos/NED.png
 
 #- name: Harvard University Belfer Center
   #logo: /assets/img/logos/harvard-belfer-center.jpg
@@ -19,5 +22,4 @@
 - name: Twitter
   logo: /assets/img/logos/Twitter.png
   
-- name: NED
-  logo: /assets/img/logos/NED.png
+
