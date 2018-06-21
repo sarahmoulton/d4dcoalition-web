@@ -19,7 +19,7 @@
 #- name: CitizenLab
   #logo: /assets/img/logos/citizenlab.jpg
     
-- name: Twitter
-  logo: /assets/img/logos/Twitter.png
+#- name: Twitter
+  #logo: /assets/img/logos/Twitter.png
   
 
