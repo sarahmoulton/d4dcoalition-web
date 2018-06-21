@@ -11,6 +11,7 @@
 		@include vendor('align-items', 'center');
 		margin: 0 0 (_size(element-margin) * 1.75) 0;
 		min-height: 13rem;
+		width: 50%
 
 		> .content {
 			padding: 5rem 4rem 5rem 0;
@@ -33,7 +34,7 @@
 
 		> .image {
 			@include vendor('align-self', 'stretch');
-			width: 30%;
+			width: 40%;
 			min-height: inherit;
 			border-radius: _size(border-radius);
 
