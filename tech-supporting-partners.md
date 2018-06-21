@@ -19,7 +19,7 @@ sections:
 
 * Twitter, to advance the work of the Coalition as it pertains to elections and civic engagement 
 	
-	<br> <br> 
+<br> <br> 
 The Coalition is in discussion with a variety of additional donor aid agencies, philanthropic foundations, and tech industry actors regarding partnership with the Coalition. "
     icon: /assets/img/icons/icon-partners.svg
 ---
