@@ -10,7 +10,7 @@
 		@include vendor('display', 'flex');
 		@include vendor('align-items', 'center');
 		margin: 0 0 (_size(element-margin) * 1.75) 0;
-		min-height: 20rem;
+		min-height: 15rem;
 
 		> .content {
 			padding: 5rem 4rem 5rem 0;
