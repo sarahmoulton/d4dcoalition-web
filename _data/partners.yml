@@ -1,17 +1,17 @@
-- name: National Democratic Institute
-  logo: /assets/img/logos/ndi.jpg
+#- name: National Democratic Institute
+  #logo: /assets/img/logos/ndi.jpg
   
-- name: International Republican Institute
-  logo: /assets/img/logos/iri.jpg
+#- name: International Republican Institute
+  #logo: /assets/img/logos/iri.jpg
 
-- name: NED
-  logo: /assets/img/logos/NED.png
+#- name: NED
+  #logo: /assets/img/logos/NED.png
 
 #- name: Harvard University Belfer Center
   #logo: /assets/img/logos/harvard-belfer-center.jpg
 
-- name: Facebook
-  logo: /assets/img/logos/facebook.png
+#- name: Facebook
+  #logo: /assets/img/logos/facebook.png
 
 #- name: Stanford University
   #logo: /assets/img/logos/stanford-university.png
@@ -22,4 +22,5 @@
 #- name: Twitter
   #logo: /assets/img/logos/Twitter.png
   
-
+- name: Logos
+  logo: /assets/img/logos/logos.png
