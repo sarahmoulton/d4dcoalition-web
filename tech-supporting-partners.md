@@ -9,7 +9,8 @@ list: partners
 
 sections:
   - title: "Tech and Supporting Partners"
-    text: "Building on its long-standing presence in Silicon Valley and its work in the democracy community, the National Democratic Institute (NDI) is leading the initiative to organize the Coalition. NDI is supported in this effort by the International Republican Institute (IRI), as well as the organizations of many of the Advisory Board <br /> members.
+    text: "Building on its long-standing presence in Silicon Valley and its work in the democracy community, the National Democratic Institute (NDI) is leading the initiative to organize the Coalition. NDI is supported in this effort by the International Republican Institute (IRI), as well as the organizations of many of the Advisory Board members.
+	<br style="margin-bottom:240px;"/>
 	Initial support for the Coalition has been provided by:
 
 * The National Endowment for Democracy, to protect the integrity of information in elections
