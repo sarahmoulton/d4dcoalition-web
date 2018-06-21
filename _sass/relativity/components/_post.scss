@@ -10,11 +10,11 @@
 		@include vendor('display', 'flex');
 		@include vendor('align-items', 'center');
 		margin: 0 0 (_size(element-margin) * 1.75) 0;
-		min-height: 15rem;
+		min-height: 13rem;
 
 		> .content {
 			padding: 5rem 4rem 5rem 0;
-			width: 40%;
+			width: 60%;
 
 			header {
 				.category {
@@ -33,7 +33,7 @@
 
 		> .image {
 			@include vendor('align-self', 'stretch');
-			width: 40%;
+			width: 30%;
 			min-height: inherit;
 			border-radius: _size(border-radius);
 
