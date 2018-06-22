@@ -3,7 +3,7 @@ layout: default
 ---
 <section class="main alt event" aria-label="Content">
     <header>
-      <h1 class="post-title">{{ page.title | escape }}</h1>
+      <h2 class="post-title">{{ page.title | escape }}</h2>
       {{ page.intro | markdownify }}
       <p class="post-meta">
         {%- assign date_format = site.relativity.date_format | default: "%b %-d, %Y" -%}
