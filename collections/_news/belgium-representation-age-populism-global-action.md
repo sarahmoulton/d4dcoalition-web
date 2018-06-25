@@ -1,6 +1,6 @@
 ---
 title: Representation in the Age of Populism? Ideas for Global Action
-date: 2018-06-15 #this is the publication date, and controls display order.
+date: 2018-06-18 #this is the publication date, and controls display order.
 event_date: 2018-06-18 #for events, this will be displayed in lieu of the post date.
 
 # description: meta description for post.
