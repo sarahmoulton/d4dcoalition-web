@@ -1,14 +1,14 @@
 ---
-title: June 18-20, 2018 - Coalition Partners Contribute to Discussion on Tech's Role in the Rise of Populism
+title: June 18 - 20, 2018 - Coalition Partners Contribute to Discussion on Tech's Role in the Rise of Populism
 date: 2018-06-18 #this is the publication date, and controls display order.
 event_date: 2018-06-18 #for events, this will be displayed in lieu of the post date.
 
 # description: meta description for post.
-image: /assets/img/news/idea-conference-save-the-date.jpg # this is the "thumbnail" image used for teaser and social media contexts throughout the site.
+image: /assets/img/news/idea-conference-save-the-date.png # this is the "thumbnail" image used for teaser and social media contexts throughout the site.
 
 # registration_link: https://eventbrite.com
 banner:
-  image: /assets/img/news/idea-conference-save-the-date.jpg
+  image: /assets/img/news/idea-conference-save-the-date.png
 
 excerpt: "NDI and partners met at a forum on “Representation in the Age of Populism? Ideas for Global Action,” sponsored by the International Institute for Democracy and Electoral Assistance (International IDEA) at the Belgian Senate from June 18-20."
 
