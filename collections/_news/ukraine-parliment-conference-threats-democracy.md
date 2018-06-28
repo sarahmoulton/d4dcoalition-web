@@ -10,7 +10,7 @@ image: /assets/img/news/photo1.jpg # this is the "thumbnail" image used for teas
 banner:
   image: /assets/img/news/photo1.jpg
 
-excerpt: "On June 8-9, the Verkhovna Rada, Ukraine’s unicameral parliamentary body, hosted a conference to discuss current threats on democracy, which came as a follow-up to the Chairman of the Verkhovna Rada's official visit to Moldova in March of this year."
+excerpt: "On June 8-9, the Verkhovna Rada, Ukraine’s unicameral parliamentary body, hosted a conference to discuss current threats on democracy, which came as a follow-up to the Chairman of the Verkhovna Rada's official visit to Moldova in March of this year"
 
 category: event
 ---
