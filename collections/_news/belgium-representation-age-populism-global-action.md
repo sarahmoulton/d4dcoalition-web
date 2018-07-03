@@ -1,5 +1,5 @@
 ---
-title: June 18 - 20, 2018 - Coalition Partners Contribute to Discussion on Tech's Role in the Rise of Populism
+title: Coalition Partners Contribute to Discussion on Tech's Role in the Rise of Populism
 date: 2018-06-18 #this is the publication date, and controls display order.
 event_date: 2018-06-18 #for events, this will be displayed in lieu of the post date.
 

@@ -1,5 +1,5 @@
 ---
-title: June 22, 2018 - Coalition Representatives Support the Copenhagen Democracy Summit
+title: Coalition Representatives Support the Copenhagen Democracy Summit
 date: 2018-06-22 #this is the publication date, and controls display order.
 event_date: 2018-06-22 #for events, this will be displayed in lieu of the post date.
 
