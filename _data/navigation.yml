@@ -1,10 +1,10 @@
-- name: Areas of Focus
+- name: Our Work
   path: areas-focus.md
 
 - name: News and Events
   path: news.md
 
-- name: Who We Are
+- name: About Us
   path: advisory-board.md
   sub_menu:
   - name: Advisory Board
