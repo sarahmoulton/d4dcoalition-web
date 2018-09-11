@@ -43,7 +43,7 @@ twitter:
 collections_dir: collections
 collections:
   bios:
-    output: false
+    output: true
     permalink: /advisory-board/:title.html
   news:
     output: true
