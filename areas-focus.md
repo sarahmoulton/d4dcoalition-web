@@ -1,6 +1,6 @@
 ---
 layout: icon-sections
-title: Areas of Focus
+title: What We Do
 permalink: /areas-focus/
 
 # description: Meta description of what the coalition does.

@@ -1,4 +1,4 @@
-- name: Our Work
+- name: What We Do
   path: areas-focus.md
 
 - name: News and Events
@@ -13,11 +13,8 @@
   - name: Tech and Supporting Partners
     path: tech-supporting-partners.md
 
-  - name: Join Us
-    path: join-us.md
-
-- name: Policies
-  path: privacy-policy.md
-  sub_menu:
-  - name: Privacy Policy
+  - name: Our Policies
     path: privacy-policy.md
+
+- name: Get Involved
+  path: join-us.md
