@@ -1,5 +1,5 @@
 ---
-title: Professor Ronald Deibert
+title: Ronald Deibert
 description:
 image: /assets/img/bios/ron_deibert.jpg
 slug: ronald-deibert

@@ -1,5 +1,5 @@
 ---
-title: Professor Philip Howard
+title: Philip Howard
 description:
 image: /assets/img/bios/philip_howard.png
 slug: philip-howard

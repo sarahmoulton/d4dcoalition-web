@@ -1,5 +1,5 @@
 ---
-title: Professor Marco Aurelio Ruediger
+title: Marco Aurelio Ruediger
 description:
 image: /assets/img/bios/marco_aurelio_ruediger.jpg
 slug: marco-aurelio-ruediger
