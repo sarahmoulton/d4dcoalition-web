@@ -13,6 +13,7 @@ banner:
 excerpt: "From June 22-23, 2018, the Atlantic Council’s Digital Forensics Lab hosted the 360/OS open source summit in Berlin, bringing together journalists, activists, innovators, and leaders from around the world as part of our digital solidarity movement for objective facts and reality — a cornerstone of democracy."
 
 category: event
+brandmark: true
 ---
 From June 22-23, 2018, the Atlantic Council’s Digital Forensics Lab hosted the 360/OS open source summit in Berlin, bringing together journalists, activists, innovators, and leaders from around the world as part of our digital solidarity movement for objective facts and reality — a cornerstone of democracy. The Summit concluded with the Atlantic Council’s tenth annual Freedom Awards, which honored the 64th US Secretary of State, Madeleine K. Albright, for her work to advance the cause of freedom around the world. 
 

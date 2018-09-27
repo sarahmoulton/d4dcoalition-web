@@ -1,6 +1,6 @@
 ---
 layout: icon-sections
-title: What We Do
+title: Our Mission
 permalink: /areas-focus/
 
 # description: Meta description of what the coalition does.
@@ -23,3 +23,11 @@ sections:
     text: "The Coalition is working directly with industry leaders to develop protocols for reporting, escalating, and resolving tech incidents that threaten to undermine elections or political events in countries around the world."
     icon: /assets/img/icons/icon-incident.svg
 ---
+
+To ensure that technology and social media play a proactive role in supporting democracy and human rights globally.
+
+As a community, we support programs, training and dialogue to promote the safe and responsible use of technology to advance democratic politics and governance, and to develop and implement effective strategies for mitigating tech-related challenges to democracy.  
+
+We recognize the diversity of cultural and political contexts in which tech platforms operate and seek to advance solutions that are designed with the active partnership of the communities who are impacted by particular technology. 
+
+<hr>

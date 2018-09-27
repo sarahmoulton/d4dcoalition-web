@@ -9,6 +9,7 @@ image: /assets/img/news/photo3.png # this is the "thumbnail" image used for teas
 # registration_link: https://eventbrite.com
 banner:
   image: /assets/img/news/photo3.png
+brandmark: true
 
 excerpt: "Representatives from the Design for Democracy Coalition attended the Copenhagen Democracy Summit, organized and hosted by the Alliance of Democracies, with the sponsorship of a wide array of organizations including Microsoft, Facebook, the University of Denver, NDI and IRI."
 

@@ -68,11 +68,16 @@ ul.faces {
     padding: _size(element-margin);
     margin:0;
 
-    >.content {width:auto;}
+    >.content {
+      width:auto;
+
+  }
 
     &.style2 .content {
       padding: _size(element-margin);
     }
+
+
   }
 }
 .partners {
@@ -131,13 +136,27 @@ ul.faces {
 .events {
   .post {
     min-height:auto;
+   &.news-brandmark-box {
+     border: 1px solid green;
+     border-radius: 4px;
+     .content {
+      padding: 1.25rem;
+     }
+     .news-brandmark-logo {
+      text-align: center;
+      img {
+        max-height:4.125rem;
+      }
+     }
+   }
+
     > .content {
       width:100%;
       padding:0 3rem;
 
       header .category {
         color: _palette(accent1, bg);
-      }
+      }  
     }
   }
 }
@@ -147,6 +166,9 @@ ul.faces {
     li {text-align: center;}
   }
 }
+
+
+
 
 #tarteaucitronAlertBig #tarteaucitronPersonalize {
   margin-top: .5rem;

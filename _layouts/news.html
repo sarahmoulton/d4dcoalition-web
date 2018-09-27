@@ -9,20 +9,38 @@ layout: page
   <div class="inner events">
     {%- assign articles = site.news | sort: "date" | reverse -%}
     {%- for article in articles -%}
-    <article class="{%- cycle 'post alt', 'post' -%}"class="post"> <!-- to do: .alt logic -->
+    <article class="{%- cycle 'post alt ', 'post ' -%} {% if article.brandmark == true %}news-brandmark-box{% endif %}"> <!-- to do: .alt logic -->
       <div class="content">
         <header>
           {%- assign date_format = site.relativity.date_format -%}
           {%- assign display_date = article.event_date | default: article.date -%}
-          <span class="category">{{ display_date | date: date_format }}</span>
-          <h3>{{ article.title | escape }}</h3>
+          {% if article.brandmark == true %}
+            <div class="news-brandmark-logo" >
+              <img src="/assets/img/d4d-logo.png" alt="d4d logo"/>
+              <hr/>
+            </div>
+          {% endif %}
+          <div>
+            <span class="category">{{ display_date | date: date_format }}</span>
+            <h3>
+              {% if article.category == "brief" %}
+                <!-- Brief: -->
+              {% endif %}
+              {{ article.title | escape }}
+            </h3>
+          </div>
         </header>
         {{ article.excerpt | markdownify }}
-        <ul class="actions">
-          <li><a href="{{ article.url | relative_url }}" class="button next small">Learn More</a></li>
-        </ul>
+
+        {% if article.category != "brief" %}
+          <ul class="actions">
+            <li><a href="{{ article.url | relative_url }}" class="button next small">Learn More</a></li>
+          </ul>
+        {% endif %}
       </div>
-      <div class="image" data-position="center"><img src="{{article.image | relative_url }}" alt="" /></div>
+      {% if article.image %}
+        <div class="image" data-position="center"><img src="{{article.image | relative_url }}" alt="" /></div>
+      {% endif %}
     </article>
     {%- endfor -%}
   </div>

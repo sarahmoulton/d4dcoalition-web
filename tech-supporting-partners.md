@@ -1,6 +1,6 @@
 ---
 layout: icon-sections
-title: Tech and Supporting Partners
+title: Our Partners
 permalink: /tech-supporting-partners/ #must specify here; default is just [filename].html.
 #description: Meta description of page.
 # intro: This is an introductory statement, if needed.
