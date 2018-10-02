@@ -1,6 +1,6 @@
 ---
 title: UK Parliament Releases Report on Disinformation, Russian Interference and Data Targeting
-date: 2018-08-14 #this is the publication date, and controls display order.
+date: 2018-07-29 #this is the publication date, and controls display order.
 
 # description: meta description for post.
 

@@ -24,10 +24,13 @@ sections:
     icon: /assets/img/icons/icon-incident.svg
 ---
 
-To ensure that technology and social media play a proactive role in supporting democracy and human rights globally.
+Our mission is to ensure that information technology and social media play a proactive role in supporting democracy and human rights globally.
 
-As a community, we support programs, training and dialogue to promote the safe and responsible use of technology to advance democratic politics and governance, and to develop and implement effective strategies for mitigating tech-related challenges to democracy.  
+<hr>
+
+As a community we create programs, training and dialogue that promote the safe and responsible use of technology to advance democratic politics and governance and take action to counteract tech-related challenges to democracy.  
 
 We recognize the diversity of cultural and political contexts in which tech platforms operate and seek to advance solutions that are designed with the active partnership of the communities who are impacted by particular technology. 
+
 
 <hr>

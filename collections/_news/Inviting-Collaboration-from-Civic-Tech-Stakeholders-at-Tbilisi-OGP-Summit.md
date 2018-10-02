@@ -1,6 +1,6 @@
 ---
 title: "Inviting Collaboration from Civic Tech Stakeholders at Tbilisi’s OGP Summit"
-date: 2018-08-14 #this is the publication date, and controls display order.
+date: 2018-07-16 #this is the publication date, and controls display order.
 category: brief
 brandmark: true
 

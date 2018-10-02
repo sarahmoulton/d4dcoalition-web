@@ -1,6 +1,6 @@
 ---
 title: Creating a Shared Vocabulary around Information Disorder
-date: 2018-08-14 #this is the publication date, and controls display order.
+date: 2018-07-09 #this is the publication date, and controls display order.
 
 # description: meta description for post.
 

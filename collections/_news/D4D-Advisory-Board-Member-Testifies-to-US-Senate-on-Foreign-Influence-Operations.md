@@ -1,6 +1,6 @@
 ---
 title: D4D Advisory Board Member Testifies to US Senate on Foreign Influence Operations
-date: 2018-08-14 #this is the publication date, and controls display order.
+date: 2018-07-09 #this is the publication date, and controls display order.
 category: brief
 brandmark: true
 

@@ -1,6 +1,6 @@
 ---
 title: Senate Report Offers 20 Policy Solutions to Big Tech, Information Disorder
-date: 2018-08-14 #this is the publication date, and controls display order.
+date: 2018-07-30 #this is the publication date, and controls display order.
 category: brief
 
 # description: meta description for post.

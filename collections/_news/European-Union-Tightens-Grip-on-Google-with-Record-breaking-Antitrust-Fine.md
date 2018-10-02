@@ -1,6 +1,6 @@
 ---
 title: European Union Tightens Grip on Google with Record-breaking Antitrust Fine
-date: 2018-08-14 #this is the publication date, and controls display order.
+date: 2018-07-25 #this is the publication date, and controls display order.
 category: brief
 
 # description: meta description for post.

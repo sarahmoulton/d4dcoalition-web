@@ -1,6 +1,6 @@
 ---
 title: D4D Partner Getulio Vargas Foundation Launches Brazilian Digital Election Observatory
-date: 2018-08-14 #this is the publication date, and controls display order.
+date: 2018-07-25 #this is the publication date, and controls display order.
 category: brief
 brandmark: true
 # description: meta description for post.

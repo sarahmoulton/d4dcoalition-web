@@ -16,10 +16,10 @@ layout: default
         {%- endif -%}
         {{page.news_intro | markdownify}}
       </header>
-      <div class="inner">
-        {%- assign articles = site.news | sort: "date" | reverse -%}
+      <div class="inner events">
+        {%- assign articles = site.news | where: "category", "event" | sort: "date" | reverse -%}
 
-        {%- for article in articles limit: 3 -%}
+        {%- for article in articles limit: 5  -%}
           <article class="{%- cycle 'post alt', 'post' -%}"class="post"> <!-- to do: .alt logic -->
             <div class="content">
               <header>
@@ -29,11 +29,16 @@ layout: default
                 <h3>{{ article.title | escape }}</h3>
               </header>
               {{ article.excerpt | markdownify }}
+
+              {% if article.category != "brief" %}
               <ul class="actions">
-                <li><a href="{{ article.url | relative_url }}" class="button next">Learn More</a></li>
+                <li><a href="{{ article.url | relative_url }}" class="button next small">Learn More</a></li>
               </ul>
+              {% endif %}
             </div>
-            <div class="image" data-position="center"><img src="{{article.image | relative_url }}" alt="" /></div>
+            {% if article.image %}
+             <div class="image" data-position="center"><img src="{{article.image | relative_url }}" alt="" /></div>
+            {% endif %}
           </article>
         {%- endfor -%}
       </div>

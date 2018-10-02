@@ -1,6 +1,6 @@
 ---
 title: "'Fake News' and Disinformation Throughout History: An Overview"
-date: 2018-08-14 #this is the publication date, and controls display order.
+date: 2018-08-01 #this is the publication date, and controls display order.
 category: brief
 
 # description: meta description for post.

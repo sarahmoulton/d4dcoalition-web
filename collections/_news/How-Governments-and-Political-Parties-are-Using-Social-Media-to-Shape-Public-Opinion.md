@@ -1,6 +1,6 @@
 ---
 title: How Governments and Political Parties are Using Social Media to Shape Public Opinion
-date: 2018-08-14 #this is the publication date, and controls display order.
+date: 2018-08-01 #this is the publication date, and controls display order.
 
 # description: meta description for post.
 

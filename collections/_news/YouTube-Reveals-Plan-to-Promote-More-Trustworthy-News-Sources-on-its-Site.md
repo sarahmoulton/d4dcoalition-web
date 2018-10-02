@@ -1,6 +1,6 @@
 ---
 title: YouTube Reveals Plan to Promote More Trustworthy News Sources on its Site
-date: 2018-08-14 #this is the publication date, and controls display order.
+date: 2018-07-09 #this is the publication date, and controls display order.
 category: brief
 
 # description: meta description for post.

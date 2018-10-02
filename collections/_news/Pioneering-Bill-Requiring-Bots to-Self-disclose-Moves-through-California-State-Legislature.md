@@ -1,6 +1,6 @@
 ---
 title: Pioneering Bill Requiring Bots to Self-disclose Moves through California State Legislature
-date: 2018-08-14 #this is the publication date, and controls display order.
+date: 2018-07-16 #this is the publication date, and controls display order.
 category: brief
 
 # description: meta description for post.
