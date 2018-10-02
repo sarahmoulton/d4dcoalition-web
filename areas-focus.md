@@ -28,9 +28,10 @@ Our mission is to ensure that information technology and social media play a pro
 
 <hr>
 
-As a community we create programs, training and dialogue that promote the safe and responsible use of technology to advance democratic politics and governance and take action to counteract tech-related challenges to democracy.  
+As a community we create programs, training and dialogue that promote the safe and responsible use of technology to advance open, democratic politics and accountable, transparent governments. We work together to take action to counteract challenges to democracy that emerge from new technologies.  
 
-We recognize the diversity of cultural and political contexts in which tech platforms operate and seek to advance solutions that are designed with the active partnership of the communities who are impacted by particular technology. 
+We recognize the diversity of cultural and political contexts in which technology platforms operate and advance solutions that are designed with the active partnership of the communities who are impacted by particular technology. 
+
 
 
 <hr>
