@@ -1,3 +1,7 @@
+#banner h1 {
+  text-transform:none;
+}
+
 a.cta {
   color: _palette(accent1, bg);
   border-bottom: 2px solid _palette(accent2, bg);
@@ -70,7 +74,6 @@ ul.faces {
 
     >.content {
       width:auto;
-
   }
 
     &.style2 .content {
