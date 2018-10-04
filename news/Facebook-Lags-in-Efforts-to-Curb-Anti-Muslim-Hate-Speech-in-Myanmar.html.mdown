@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en_US"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Facebook Lags in Efforts to Curb Anti-Muslim Hate Speech in Myanmar | Design 4 Democracy</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="Facebook Lags in Efforts to Curb Anti-Muslim Hate Speech in Myanmar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A Reuters special report documents more than 1,000 posts, comments, and crude images on Facebook calling for violence and discrimination against Myanmar’s Muslims. Despite official rules banning such hate speech, Facebook appeared largely unprepared to crack down on this wave of anti-Muslim posts. For a long time, the organization lacked enough Burmese speaking employees, as well as programs that can effectively detect hate speech in the language and systems to translate the text, among other limitations preventing an effective response. It has also recently blocked the accounts of 18 users and 52 pages that are linked to Myanmar’s military, further highlighting the country’s worsening relationship with the world’s largest social media network." />
+<meta property="og:description" content="A Reuters special report documents more than 1,000 posts, comments, and crude images on Facebook calling for violence and discrimination against Myanmar’s Muslims. Despite official rules banning such hate speech, Facebook appeared largely unprepared to crack down on this wave of anti-Muslim posts. For a long time, the organization lacked enough Burmese speaking employees, as well as programs that can effectively detect hate speech in the language and systems to translate the text, among other limitations preventing an effective response. It has also recently blocked the accounts of 18 users and 52 pages that are linked to Myanmar’s military, further highlighting the country’s worsening relationship with the world’s largest social media network." />
+<link rel="canonical" href="https://design4democracy.org/news/Facebook-Lags-in-Efforts-to-Curb-Anti-Muslim-Hate-Speech-in-Myanmar.html" />
+<meta property="og:url" content="https://design4democracy.org/news/Facebook-Lags-in-Efforts-to-Curb-Anti-Muslim-Hate-Speech-in-Myanmar.html" />
+<meta property="og:site_name" content="Design 4 Democracy" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-27T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@design4dem" />
+<meta name="google-site-verification" content="" />
+<script type="application/ld+json">
+{"description":"A Reuters special report documents more than 1,000 posts, comments, and crude images on Facebook calling for violence and discrimination against Myanmar’s Muslims. Despite official rules banning such hate speech, Facebook appeared largely unprepared to crack down on this wave of anti-Muslim posts. For a long time, the organization lacked enough Burmese speaking employees, as well as programs that can effectively detect hate speech in the language and systems to translate the text, among other limitations preventing an effective response. It has also recently blocked the accounts of 18 users and 52 pages that are linked to Myanmar’s military, further highlighting the country’s worsening relationship with the world’s largest social media network.","@type":"BlogPosting","url":"https://design4democracy.org/news/Facebook-Lags-in-Efforts-to-Curb-Anti-Muslim-Hate-Speech-in-Myanmar.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://design4democracy.org/assets/img/logos/d4d-logo.png"}},"headline":"Facebook Lags in Efforts to Curb Anti-Muslim Hate Speech in Myanmar","dateModified":"2018-08-27T00:00:00-04:00","datePublished":"2018-08-27T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://design4democracy.org/news/Facebook-Lags-in-Efforts-to-Curb-Anti-Muslim-Hate-Speech-in-Myanmar.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/tarteaucitron/css/tarteaucitron.css">
+  <link rel="stylesheet" href="/assets/main.css">
+
+  <link type="application/atom+xml" rel="alternate" href="https://design4democracy.org/feed.xml" title="Design 4 Democracy" />
+
+</head>
+<body>
+  <!-- Wrapper -->
+  <div id="wrapper"><header class="" role="banner" id="header">
+    <!-- Logo -->
+    <div class="logo">
+      <a class="site-title" rel="author" href="/"><img src="/assets/img/d4d-logo.png" alt="Design 4 Democracy" /></a>
+    </div><!-- to do: figure out how to manage dropdown -->
+      <!-- Nav -->
+      <nav id="nav"><ul><li class="current">
+            <a class="page-link" href="/news/">
+              News and events
+            </a></li><li class="">
+            <a class="page-link icon fa-angle-down" href="/areas-focus/">
+              About D4D
+            </a><ul><li>
+                  <a href="/areas-focus/">
+                    Our mission
+                  </a>
+              </li><li>
+                  <a href="/advisory-board/">
+                    Advisory board
+                  </a>
+              </li><li>
+                  <a href="/tech-supporting-partners/">
+                    Partners
+                  </a>
+              </li><li>
+                  <a href="/privacy-policy.html">
+                    Privacy Policy
+                  </a>
+              </li></ul></li><li class="">
+            <a class="page-link" href="/join-us/">
+              Get involved
+            </a></li></ul></nav></header>
+<section class="main alt event" aria-label="Content">
+    <header>
+      <h2 class="post-title">Facebook Lags in Efforts to Curb Anti-Muslim Hate Speech in Myanmar</h2>
+      
+
+      <p class="post-meta">
+      </p>
+    </header>
+    <div class="inner style2">A Reuters special report documents [more than 1,000 posts, comments, and crude images][link] on Facebook calling for violence and discrimination against Myanmar’s Muslims. Despite official rules banning such hate speech, Facebook appeared largely unprepared to crack down on this wave of anti-Muslim posts. For a long time, the organization lacked enough Burmese speaking employees, as well as programs that can effectively detect hate speech in the language and systems to translate the text, among other limitations preventing an effective response. It has also recently [blocked the accounts of 18 users and 52 pages that are linked to Myanmar’s military][link2], further highlighting the country’s worsening relationship with the world’s largest social media network.
+
+[link]: https://www.reuters.com/investigates/special-report/myanmar-facebook-hate/
+
+[link2]: https://www.reuters.com/article/us-myanmar-facebook/facebook-bans-myanmar-army-chief-others-in-unprecedented-move-idUSKCN1LC0R7
+
+
+      <ul class="actions vertical"><li><a href="/news/" class="cta">View all News and Events</a></a>
+      </ul>
+  </div>
+</section>
+<footer id="footer" class="accent3">
+  <ul class="icons">
+    <li><a href="https://twitter.com/design4dem" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+    <li><a href="https://www.facebook.com/Design4Democracy" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+    <!--li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+    <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+    <li><a href="#" class="icon alt fa-phone"><span class="label">Phone</span></a></li>
+    <li><a href="#" class="icon alt fa-envelope-o"><span class="label">Email</span></a></li-->
+  </ul>
+  <p class="copyright">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+</footer>
+</div><!-- /wrapper -->
+  <!-- Scripts -->
+    <script src="/assets/js/scripts.min.js"></script><script src="/tarteaucitron/tarteaucitron.js"></script>
+    <script type="text/javascript">
+    (function($) {
+      $(document).ready(function(){
+        tarteaucitron.init({
+          "hashtag": "#tarteaucitron", /* Automatically open the panel with the hashtag */
+          "highPrivacy": false, /* disabling the auto consent feature on navigation? */
+          "orientation": "top", /* the big banner should be on 'top' or 'bottom'? */
+          "adblocker": false, /* Display a message if an adblocker is detected */
+          "showAlertSmall": true, /* show the small banner on bottom right? */
+          "cookieslist": true, /* Display the list of cookies installed ? */
+          "removeCredit": false, /* remove the credit link? */
+          //"cookieDomain": ".example.com" /* Domain name on which the cookie for the subdomains will be placed */
+        });
+      });
+    })(jQuery);
+    </script><script type="text/javascript">
+  tarteaucitron.user.analyticsUa = 'UA-120811815-1';
+  tarteaucitron.user.analyticsMore = function () { /* add here your optionnal ga.push() */ };
+  (tarteaucitron.job = tarteaucitron.job || []).push('analytics');
+</script></body>
+
+</html>
