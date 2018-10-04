@@ -1,0 +1,55 @@
+---
+title: D4D Advisory Board Convening Next Month
+date: 2018-09-14 #this is the publication date, and controls display order.
+
+# description: meta description for post.
+
+category: brief
+brandmark: true
+---
+
+The D4D Advisory Board will come together in London at the end of October for their first meeting to discuss policies, plans and strategy for the Coalition. The meeting will be held on the sidelines of [Mozfest] [link] and [MisinfoCon] [link2], two international conferences focusing on civic tech, disinfo, cybersecurity and a host of related issues crucial to D4D’s efforts.
+
+
+[link]: https://mozillafestival.org/
+
+[link2]: https://misinfocon.com/join-us-for-misinfocon-london-oct-24th-a5c597303bab
+
+
+---
+title: Ukraine Cybersecurity Training 
+date: 2018-09-12 #this is the publication date, and controls display order.
+
+# description: meta description for post.
+
+category: brief
+brandmark: true
+---
+
+On September 12, 2018, members of the Design 4 Democracy Coalition held an off-the-record workshop in Kyiv, Ukraine on emerging threats in disinformation and cybersecurity. Facilitated by NDI, IRI, IFES, and StopFake, the workshop included a range of organizations from civil society, government, technology companies and the cybersecurity community. Following lightning talks and presentations on research findings, participants took part in focused discussions on disinformation and cybersecurity in the lead up to the 2019 elections, as well as potential areas for improved collaboration with technology platforms to counter identified threats.
+
+---
+title: g0v Summit Workshop to Discuss Disinformation Monitoring
+date: 2018-09-14 #this is the publication date, and controls display order.
+
+# description: meta description for post.
+
+category: brief
+brandmark: true
+---
+
+The D4D Coalition will present on its work at the g0v Summit in Taiwan from October 5 to 7, 2018,  particularly the potential to develop disinformation monitoring efforts in Asia, with the support of partners, tools and techniques bolstered by D4D.
+
+---
+title: D4D Coalition Members Survey Upcoming Macedonian Referendum
+date: 2018-09-10 #this is the publication date, and controls display order.
+
+# description: meta description for post.
+
+category: brief
+brandmark: true
+---
+
+The D4D team is actively engaged in Macedonia ahead of its historic national referendum on September 30, 2018. D4D is supporting efforts by local stakeholders to ensure that disinformation does not interfere with the ability of the Macedonian people to express their will.
+
+---
