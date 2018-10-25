@@ -13,8 +13,9 @@
   - name: Advisory board
     path: advisory-board.md
 
-  - name: Partners
-    path: tech-supporting-partners.md
+  - name: Members, Partners & Funders
+    path: members-partners-funders.md
+    anchor: ""
 
   - name: Privacy Policy
     path: privacy-policy.md

@@ -46,7 +46,7 @@
               {%- assign sub_page = site.pages | where: "path", sub_nav_item.path | first -%}
               {%- if forloop.first -%}<ul>{%- endif -%}
                 <li>
-                  <a href="{{ sub_page.url | relative_url }}">
+                  <a href="{{ sub_page.url | relative_url }}#{{sub_nav_item.anchor}}">
                     {{ sub_nav_item.name | escape }}
                   </a>
               </li>

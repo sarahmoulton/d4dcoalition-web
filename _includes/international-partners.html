@@ -1,0 +1,10 @@
+<!-- Partner Grid -->
+  <aside id="partners">
+    <div class="content">
+      <ul class="partners">
+      {%- for partner in site.data.international-partners -%}
+        <li class="post"><img src="{{ partner.logo | relative_url }}" alt="{{ partner.name | escape }}" /></li>
+      {%- endfor -%}
+      </ul>
+    </div>
+  </aside>

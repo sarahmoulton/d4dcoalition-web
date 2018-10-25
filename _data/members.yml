@@ -22,5 +22,5 @@
 #- name: Twitter
   #logo: /assets/img/logos/Twitter.png
   
-- name: Logos
-  logo: /assets/img/logos/logos.png
+#- name: Logos
+#  logo: /assets/img/logos/logos.png

@@ -8,16 +8,21 @@ layout: default
     </header>
     <div class="image main" data-position="center"><img src="{{ page.banner.image | relative_url }}" alt="" /></div>
     <div class="inner style2">
-
-      {{ content }}
-     
+       <div class="content-section row">
+        <div class="section-icon 2u">
+          <img src="{{ '/assets/img/icons/icon-partners.svg' | relative_url }}" alt="" />
+        </div>
+        <div class="section-text 10u">
+          {{ content }}
+        </div>
+      </div>
       {%- if page.sections.size > 0 -%}
       {%- for section in page.sections -%}
       <div class="content-section row">  
         <div class="section-icon 2u">
-          <img src="{{ section.icon | relative_url }}" alt="" />
+          <!--<img src="{{ section.icon | relative_url }}" alt="" />-->
         </div>
-        <div class="section-text 10u">
+        <div class="section-text "><!--10u-->
           <a name="{{section.anchor}}"><h3>{{ section.title | escape }}</h3></a>
           {{ section.text | markdownify }}
         </div>

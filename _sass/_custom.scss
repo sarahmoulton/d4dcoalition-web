@@ -68,7 +68,7 @@ ul.faces {
   .post {
     display: inline-block;
     text-align: center;
-    width: 34%;
+    width: 33%;
     padding: _size(element-margin);
     margin:0;
 
@@ -89,11 +89,6 @@ ul.faces {
   margin:0;
   padding:0;
 
-  .post:first-child {
-    width: 80%;
-    min-height: 200px;
-    padding: _size(element-margin);
-  }
 
   @include breakpoint(medium) {
     .post {
@@ -115,25 +110,30 @@ ul.faces {
   }
   img {max-width: 100%;}
   img[src*="ndi"] {
-    max-width: 34%;
+    
   }
   
   
   img {max-width: 100%;}
   img[src*="iri"] {
-    max-width: 90%;
+    
   }
   
   
   img {max-width: 100%;}
   img[src*="Twitter"] {
-    max-width: 65%;
+    max-width:75%;
   }
   
+
+  img {max-width: 100%;}
+  img[src*="MSFT"] {
+    
+  }
   
   img {max-width: 100%;}
   img[src*="NED"] {
-    max-width: 74%;
+    max-width:75%;
   }
 
 .events {
