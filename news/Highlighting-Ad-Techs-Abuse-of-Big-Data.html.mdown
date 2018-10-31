@@ -13,22 +13,22 @@
 
   
   <!-- Begin Jekyll SEO tag v2.4.0 -->
-<title>A History of Social Media from the Arab Spring to Today | D4D Coalition</title>
+<title>Highlighting Ad Tech’s Abuse of Big Data | D4D Coalition</title>
 <meta name="generator" content="Jekyll v3.7.3" />
-<meta property="og:title" content="A History of Social Media from the Arab Spring to Today" />
+<meta property="og:title" content="Highlighting Ad Tech’s Abuse of Big Data" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This comprehensive essay details the myriad of political, social and business dynamics that transformed social media from the pro-democratic tool of the Arab Spring to the anti-democratic weapon of authoritarians and election-meddlers today. Writer Zeynep Tufekci points to the lack of regulations on tech firms, the unwillingness of the US to bolster its online defenses, and the appropriation of social media tools by authoritarians as key factors in this transition." />
-<meta property="og:description" content="This comprehensive essay details the myriad of political, social and business dynamics that transformed social media from the pro-democratic tool of the Arab Spring to the anti-democratic weapon of authoritarians and election-meddlers today. Writer Zeynep Tufekci points to the lack of regulations on tech firms, the unwillingness of the US to bolster its online defenses, and the appropriation of social media tools by authoritarians as key factors in this transition." />
-<link rel="canonical" href="https://d4dcoalition.org/news/A-History-of-Social-Media-from-the-Arab-Spring-to-Today.html" />
-<meta property="og:url" content="https://d4dcoalition.org/news/A-History-of-Social-Media-from-the-Arab-Spring-to-Today.html" />
+<meta name="description" content="Data &amp; Society published a report on “[Weaponizing the Digital Influence Machine: The Political Perils of Online Ad Tech]”. The paper further explains the relationship between politics, media, and ill-meaning actors. It lays out the tactics, technologies, and conditions that anti-democratic and politically-motivated actors use to weaponize digital advertising. The report finds that three main strategies are employed by actors who use the “Digital Influence Machine” to attempt to divide an opponent’s supporters, leverage behavioral science techniques to influence consumers, and mobilize those who support their views by threatening their identity, political or otherwise." />
+<meta property="og:description" content="Data &amp; Society published a report on “[Weaponizing the Digital Influence Machine: The Political Perils of Online Ad Tech]”. The paper further explains the relationship between politics, media, and ill-meaning actors. It lays out the tactics, technologies, and conditions that anti-democratic and politically-motivated actors use to weaponize digital advertising. The report finds that three main strategies are employed by actors who use the “Digital Influence Machine” to attempt to divide an opponent’s supporters, leverage behavioral science techniques to influence consumers, and mobilize those who support their views by threatening their identity, political or otherwise." />
+<link rel="canonical" href="https://d4dcoalition.org/news/Highlighting-Ad-Techs-Abuse-of-Big-Data.html" />
+<meta property="og:url" content="https://d4dcoalition.org/news/Highlighting-Ad-Techs-Abuse-of-Big-Data.html" />
 <meta property="og:site_name" content="D4D Coalition" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-08-14T00:00:00-04:00" />
+<meta property="article:published_time" content="2018-10-17T00:00:00-04:00" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@design4dem" />
 <meta name="google-site-verification" content="" />
 <script type="application/ld+json">
-{"description":"This comprehensive essay details the myriad of political, social and business dynamics that transformed social media from the pro-democratic tool of the Arab Spring to the anti-democratic weapon of authoritarians and election-meddlers today. Writer Zeynep Tufekci points to the lack of regulations on tech firms, the unwillingness of the US to bolster its online defenses, and the appropriation of social media tools by authoritarians as key factors in this transition.","@type":"BlogPosting","url":"https://d4dcoalition.org/news/A-History-of-Social-Media-from-the-Arab-Spring-to-Today.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://d4dcoalition.org/assets/img/logos/d4d-logo.png"}},"headline":"A History of Social Media from the Arab Spring to Today","dateModified":"2018-08-14T00:00:00-04:00","datePublished":"2018-08-14T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://d4dcoalition.org/news/A-History-of-Social-Media-from-the-Arab-Spring-to-Today.html"},"@context":"http://schema.org"}</script>
+{"description":"Data &amp; Society published a report on “[Weaponizing the Digital Influence Machine: The Political Perils of Online Ad Tech]”. The paper further explains the relationship between politics, media, and ill-meaning actors. It lays out the tactics, technologies, and conditions that anti-democratic and politically-motivated actors use to weaponize digital advertising. The report finds that three main strategies are employed by actors who use the “Digital Influence Machine” to attempt to divide an opponent’s supporters, leverage behavioral science techniques to influence consumers, and mobilize those who support their views by threatening their identity, political or otherwise.","@type":"BlogPosting","url":"https://d4dcoalition.org/news/Highlighting-Ad-Techs-Abuse-of-Big-Data.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://d4dcoalition.org/assets/img/logos/d4d-logo.png"}},"headline":"Highlighting Ad Tech’s Abuse of Big Data","dateModified":"2018-10-17T00:00:00-04:00","datePublished":"2018-10-17T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://d4dcoalition.org/news/Highlighting-Ad-Techs-Abuse-of-Big-Data.html"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link rel="stylesheet" href="/tarteaucitron/css/tarteaucitron.css">
@@ -73,15 +73,15 @@
             </a></li></ul></nav></header>
 <section class="main alt event" aria-label="Content">
     <header>
-      <h2 class="post-title">A History of Social Media from the Arab Spring to Today</h2>
+      <h2 class="post-title">Highlighting Ad Tech’s Abuse of Big Data</h2>
       
 
       <p class="post-meta">
       </p>
     </header>
-    <div class="inner style2">This comprehensive essay details the [myriad of political, social and business dynamics that transformed social media][link] from the pro-democratic tool of the Arab Spring to the anti-democratic weapon of authoritarians and election-meddlers today. Writer Zeynep Tufekci points to the lack of regulations on tech firms, the unwillingness of the US to bolster its online defenses, and the appropriation of social media tools by authoritarians as key factors in this transition.
+    <div class="inner style2">Data & Society published a report on “[Weaponizing the Digital Influence Machine: The Political Perils of Online Ad Tech]”. The paper further explains the relationship between politics, media, and ill-meaning actors. It lays out the tactics, technologies, and conditions that anti-democratic and politically-motivated actors use to weaponize digital advertising. The report finds that three main strategies are employed by actors who use the “Digital Influence Machine” to attempt to divide an opponent’s supporters, leverage behavioral science techniques to influence consumers, and mobilize those who support their views by threatening their identity, political or otherwise. 
 
-[link]: https://www.technologyreview.com/s/611806/how-social-media-took-us-from-tahrir-square-to-donald-trump/
+[link]: https://datasociety.net/output/weaponizing-the-digital-influence-machine/
 
 
       <ul class="actions vertical"><li><a href="/news/" class="cta">View all News and Events</a></a>
