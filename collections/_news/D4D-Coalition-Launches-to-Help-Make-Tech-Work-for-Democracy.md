@@ -4,7 +4,7 @@ date: 2018-10-25 #this is the publication date, and controls display order.
 
 # description: meta description for post.
 
-category: brief
+category: news
 brandmark: true
 ---
 
