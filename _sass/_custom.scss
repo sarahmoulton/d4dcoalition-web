@@ -102,39 +102,36 @@ ul.faces {
       width: auto;
     }
   }
+  
   img {max-width: 100%;}
   img[src*="facebook"] {
     max-width: 60%;
   }
   
-  }
-  img {max-width: 100%;}
-  img[src*="ndi"] {
-    
-  }
-  
-  
-  img {max-width: 100%;}
-  img[src*="iri"] {
-    
-  }
-  
-  
-  img {max-width: 100%;}
-  img[src*="Twitter"] {
-    max-width:75%;
-  }
-  
-
-  img {max-width: 100%;}
-  img[src*="MSFT"] {
-    
-  }
-  
-  img {max-width: 100%;}
   img[src*="NED"] {
     max-width:75%;
   }
+
+  img[src*="ndi"] {
+    
+  }
+  img[src*="iri"] {
+    
+  }
+  img[src*="Twitter"] {
+    max-width:70%;
+  }
+  img[src*="MSFT"] {
+    
+  }
+  img[src*="ideanew"] {
+    max-width:75%;
+  }
+
+}
+  
+img {max-width: 100%;}
+
 
 .events {
   .post {
