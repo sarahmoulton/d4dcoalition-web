@@ -83,6 +83,13 @@ ul.faces {
 
   }
 }
+
+.partners .post.ifes,
+.partners .post.microsoft
+{
+  width: 66%;
+}
+
 .partners {
   align-items: center;
   list-style: none outside;
@@ -94,44 +101,75 @@ ul.faces {
     .post {
       width: 50%;
     }
+    .post.ifes,
+    .post.microsoft {
+      width: 100%;
+    } 
+    .post.idea {
+      img {
+        max-width: 75%;
+      }
+    }
+
   }
 
 
   @include breakpoint(small) {
     .post {
       width: auto;
+      img {
+        max-width: 75%;
+      }
+    }
+    .post.ifes,
+    .post.microsoft {
+      img {
+        max-width: 100%;
+      }
+    }
+    .post.ndi,
+    .post.iri,
+    .post.idea,
+    .post.ned {
+      img {
+        max-width: 50%;
+      }
     }
   }
   
   img {max-width: 100%;}
-  img[src*="facebook"] {
-    max-width: 60%;
-  }
+
+
+
   
-  img[src*="NED"] {
+  img[src*="NED"],
+  img[src*="IFES"],
+  img[src*="ideanew"]
+  {
     max-width:75%;
   }
 
-  img[src*="ndi"] {
-    
+
+  img[src*="MSFT"]
+  {
+    max-width:80%;
   }
-  img[src*="iri"] {
-    
+
+  img[src*="Twitter"]
+  {
+    max-width: 60%;
+
   }
-  img[src*="Twitter"] {
-    max-width:70%;
-  }
-  img[src*="MSFT"] {
-    
-  }
-  img[src*="ideanew"] {
-    max-width:75%;
+  
+  img[src*="facebook"] {
+    max-width: 55%;
   }
 
 }
-  
-img {max-width: 100%;}
 
+
+
+img {max-width: 100%;}
 
 .events {
   .post {

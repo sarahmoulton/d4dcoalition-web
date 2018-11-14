@@ -3,7 +3,7 @@
     <div class="content">
       <ul class="partners">
       {%- for partner in site.data.members -%}
-        <li class="post"><img src="{{ partner.logo | relative_url }}" alt="{{ partner.name | escape }}" /></li>
+        <li class="post {{partner.id}}"><img src="{{ partner.logo | relative_url }}" alt="{{ partner.name | escape }}" /></li>
       {%- endfor -%}
       </ul>
     </div>

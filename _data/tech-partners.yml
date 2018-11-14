@@ -3,11 +3,14 @@
 - name: Facebook
   logo: /assets/img/logos/tech-partners/facebook.png
   blurb: "to advance the Coalition formation and launch; provide digital disinformation research; strengthen Coalition engagement in key 2018 global elections; live-stream candidate debates; develop tools and best practices to combat disinformation in upcoming elections; and assess cybersecurity vulnerabilities among democratic political campaigns and organizations"
-    
+  id: facebook
+
 - name: Twitter
   logo: /assets/img/logos/tech-partners/Twitter_Logo_Blue.png
   blurb: "to advance the work of the Coalition as it pertains to elections and civic engagement."
+  id: twitter
 
 - name: Microsoft
   logo: /assets/img/logos/tech-partners/MSFT_logo_rgb_C-Gray.png  
   blurb: "this is some placeholder text that will soon be replaced with something real"
+  id: microsoft
