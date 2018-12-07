@@ -17,7 +17,7 @@ layout: default
         {{page.news_intro | markdownify}}
       </header>
       <div class="inner events">
-        {%- assign articles = site.news | where: "category", "event" | sort: "date" | reverse -%}
+        {%- assign articles = site.news | sort: "date" | reverse -%}
 
         {%- for article in articles limit: 5  -%}
           <article class="{%- cycle 'post alt', 'post' -%}"class="post"> <!-- to do: .alt logic -->
