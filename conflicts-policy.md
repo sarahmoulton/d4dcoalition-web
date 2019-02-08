@@ -4,14 +4,17 @@ title: Funding & Conflicts Policy
 layout: page
 ---
 Mission and Structure of the Coalition 
+
 The Design 4 Democracy (D4D) Coalition (“the Coalition”) is a global network of organizations that are committed to enshrining democracy and human rights as core design principles within the tech industry. Given the transformational impact that digital products and platforms have had on politics in the 21st century, the Coalition believes that tech companies have a responsibility to help respond to the challenges confronting democracy in the digital age. In this context, the Coalition welcomes the industry’s willingness to bring their financial and intellectual resources to bear in support of trusted democratic advocates and partner organizations around the world. It is imperative, however, that the Coalition maintains its ability to advocate for its mission effectively and independently.  
 
 The Coalition is not an independent organization, but a collective initiative of the network members.  Funding to support Coalition activities may flow through any number of Coalition partners or organizations. However, all Coalition-branded activities must comply with the following guidelines, and certain standards apply to all activities that will be branded with the D4D Coalition name and logo.
 
-Status of These Guidelines 
+Status of These Guidelines
+
 To support Coalition activities, Core Partners and Members of the Coalition accept funding from a variety of donors. The Advisory Board has adopted these guidelines which are to be followed with respect to funding in support of the Coalition.  
 
 Guidelines
+
 Diversification of Funding Sources: The Coalition believes that its activities will be strengthened by its ability to engage a broad range of partners and funders. The Coalition will solicit resources to support its mission from public and private sources, including philanthropic foundations, high-net worth individuals, the tech industry and governments, particularly through bilateral development agencies. The Advisory Board will periodically review the mix of funding sources and provide advice on ensuring the diversification of funding. Recognizing that funders vary in their ability to make contributions or award grants, the initial funding for the Coalition is expected to be less diverse than what will emerge over time.  The goal for funding by the end of 2019 is to have revenue provided by at least six different funding sources — including the tech industry, governments and philanthropic organizations —
 with no single organization providing more than a quarter of the funding for Coalition activities. 
 
