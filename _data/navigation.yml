@@ -16,6 +16,9 @@
   - name: Members, Partners & Funders
     path: members-partners-funders.md
     anchor: ""
+    
+  - name: Funding & Conflicts Policy
+    path: conflicts-policy.md
 
   - name: Privacy Policy
     path: privacy-policy.md
