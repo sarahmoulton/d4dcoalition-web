@@ -1,5 +1,5 @@
 ---
-title: "STATEMENT: Mozilla's Open Letter to Facebook and the Responsibility of the Tech Community to \"Do No Democratic Harm\""
+title: "Mozilla's Open Letter to Facebook and the Responsibility of the Tech Community to \"Do No Democratic Harm\""
 date: 2019-02-20 #this is the publication date, and controls display order.
 category: news
 brandmark: true
