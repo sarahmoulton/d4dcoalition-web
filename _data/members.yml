@@ -1,4 +1,6 @@
 #- name: National Democratic Institute
   #logo: /assets/img/logos/ndi.jpg
   #id: ndi
-  
+- name: TechSoup
+  logo: /assets/img/logos/members/TechSoup-general-high-res-logo-PNG-2000x500.png
+  id: techsoup  

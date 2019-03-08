@@ -70,6 +70,7 @@ ul.faces {
     text-align: center;
     width: 33%;
     padding: _size(element-margin);
+    border-style: none;
     margin:0;
 
     >.content {
@@ -90,6 +91,11 @@ ul.faces {
   width: 66%;
 }
 
+.partners .post.techsoup
+{
+  width: 50%;
+}
+
 .partners {
   align-items: center;
   list-style: none outside;
@@ -102,10 +108,13 @@ ul.faces {
       width: 50%;
     }
     .post.ifes,
-    .post.microsoft {
+    .post.microsoft,
+    .post.techsoup {
       width: 100%;
     } 
-    .post.idea {
+    .post.idea,
+    .post.techsoup
+     {
       img {
         max-width: 75%;
       }
@@ -127,10 +136,16 @@ ul.faces {
         max-width: 100%;
       }
     }
+    .post.techsoup {
+      img {
+        max-width: 75%;
+      }
+    }    
     .post.ndi,
     .post.iri,
     .post.idea,
-    .post.ned {
+    .post.ned
+    {
       img {
         max-width: 50%;
       }

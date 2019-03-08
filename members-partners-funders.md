@@ -9,26 +9,26 @@ permalink: /members-partners-funders/ #must specify here; default is just [filen
 #list: tech-partners
 
 sections:
-  - title: "Coalition Members"
-    list: members
-    anchor: "coalition-members"
-    text: "D4D Coalition Members are local civil society organizations who share a commitment to D4D's mission and to supporting each other's work, pooling their knowledge, and speaking with a united voice."
 
-    icon: /assets/img/icons/icon-partners.svg
-
-  - title: "International Partners"
+  - title: ""
     list: international-partners
     anchor: "international-partners"
-    text: "International Partners have committed to supporting D4D's mission and activitities internationally, either by leading a working group that coordinates D4D activities on specific topic or by integrating the D4D Coalition into their related programming efforts."
-    
+    text: ""
 
-  - title: "Technology Partners"
+  - title: ""
+    list: members
+    anchor: "coalition-members"
+    text: ""
+
+    icon: /assets/img/icons/icon-partners.svg    
+
+  - title: "Donors and Technology Partners"
     list: tech-partners
     anchor: "tech-partners"
-    text: "Our technology partners are contributing financially to the D4D Coalition and have expressed a commitment to work with D4D to advance its mission."
+    text: "Our donors and technology partners are contributing financially and in-kind to the D4D Coalition and have expressed a commitment to work with D4D to advance its mission."
     
 
 ---
 
-Organizations participate in D4D in a variety of ways. Local civil society organizations and activists participate as D4D Coalition Members. Democracy organizations who work on a regional or global scale can join as International Partners, and technology companies support D4D as Technology Partners. 
+The D4D Coalition represents the combined network, brainpower, and drive of its members. D4D Coalition Members are frontline civil society organizations, academic institutions, fact checking teams, civic tech groups, and others whose work aligns with the D4D Coalition’s mission and who want to deepen their coordination and share their knowhow with peers around the world.
 <hr/>
