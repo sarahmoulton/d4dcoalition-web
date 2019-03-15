@@ -4,7 +4,7 @@ title: Advisory Board
 permalink: /advisory-board/
 # description: Meta data for coalition members.
 
-# intro: This is the introductory content for the bios page.
+# intro: This is the introductory content for the bios pages.
 ---
 The Design 4 Democracy Coalition brings together select democracy and tech leaders from around the world who have expertise on a number of the key democracy challenges in the digital age: How do we develop technology that distinguishes between genuine, “organic” online discourse and computational propaganda? How do we protect human rights defenders and political actors from cyber attacks? How do we ensure that political debate and discourse is based on factual information about policies rather than disinformation? How do we ensure that platforms don’t artificially preference extremist viewpoints, rather than mainstream opinion?
 
